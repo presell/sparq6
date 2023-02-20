@@ -546,77 +546,10 @@ export type PlasmicDisposableCollection__OverridesType = {
   recyclable3?: p.Flex<"div">;
   divCollection3?: p.Flex<"div">;
   div162?: p.Flex<"div">;
-  div163?: p.Flex<"div">;
-  a15?: p.Flex<"div">;
-  productFuel250X2502Xjpg3?: p.Flex<"div">;
-  div164?: p.Flex<"div">;
-  _43Rating447Votes11?: p.Flex<"div">;
-  i51?: p.Flex<"div">;
-  i52?: p.Flex<"div">;
-  i53?: p.Flex<"div">;
-  i54?: p.Flex<"div">;
-  i55?: p.Flex<"div">;
-  form11?: p.Flex<"div">;
-  div165?: p.Flex<"div">;
-  div166?: p.Flex<"div">;
-  div167?: p.Flex<"div">;
-  div168?: p.Flex<"div">;
-  label21?: p.Flex<"div">;
-  strawberry11?: p.Flex<"div">;
-  div169?: p.Flex<"div">;
-  label22?: p.Flex<"div">;
-  vanilla11?: p.Flex<"div">;
-  div170?: p.Flex<"div">;
-  buttonAddToCart106242076283?: p.Flex<"div">;
-  div171?: p.Flex<"div">;
-  a16?: p.Flex<"div">;
-  productPureCca9Dd58D8Da49AcB531F6Abd24468Da250X2502Xjpg3?: p.Flex<"div">;
-  div172?: p.Flex<"div">;
-  _43Rating447Votes12?: p.Flex<"div">;
-  i56?: p.Flex<"div">;
-  i57?: p.Flex<"div">;
-  i58?: p.Flex<"div">;
-  i59?: p.Flex<"div">;
-  i60?: p.Flex<"div">;
-  div173?: p.Flex<"div">;
-  form12?: p.Flex<"div">;
-  div174?: p.Flex<"div">;
-  div175?: p.Flex<"div">;
-  div176?: p.Flex<"div">;
-  div177?: p.Flex<"div">;
-  label23?: p.Flex<"div">;
-  strawberry12?: p.Flex<"div">;
-  div178?: p.Flex<"div">;
-  label24?: p.Flex<"div">;
-  vanilla12?: p.Flex<"div">;
-  div179?: p.Flex<"div">;
-  buttonAddToCart106242143483?: p.Flex<"div">;
-  div180?: p.Flex<"div">;
-  a17?: p.Flex<"div">;
-  productMeltE5Ee4B8CB3944Dfa969D133320737857250X2502Xjpg3?: p.Flex<"div">;
-  div181?: p.Flex<"div">;
-  _43Rating447Votes13?: p.Flex<"div">;
-  i61?: p.Flex<"div">;
-  i62?: p.Flex<"div">;
-  i63?: p.Flex<"div">;
-  i64?: p.Flex<"div">;
-  i65?: p.Flex<"div">;
-  div182?: p.Flex<"div">;
-  form13?: p.Flex<"div">;
-  div183?: p.Flex<"div">;
-  div184?: p.Flex<"div">;
-  div185?: p.Flex<"div">;
-  div186?: p.Flex<"div">;
-  label25?: p.Flex<"div">;
-  strawberry13?: p.Flex<"div">;
-  div187?: p.Flex<"div">;
-  label26?: p.Flex<"div">;
-  vanilla13?: p.Flex<"div">;
-  div188?: p.Flex<"div">;
-  buttonAddToCart106242249723?: p.Flex<"div">;
   div189?: p.Flex<"div">;
   a18?: p.Flex<"div">;
-  productVariety1C2E7Bd9Ac9C4989Bfad811526Dad7E0250X2502Xjpg3?: p.Flex<"div">;
+  productVariety1C2E7Bd9Ac9C4989Bfad811526Dad7E0250X2502Xjpg3?: p.Flex<"a"> &
+    Partial<LinkProps>;
   div190?: p.Flex<"div">;
   _43Rating447Votes14?: p.Flex<"div">;
   i66?: p.Flex<"div">;
@@ -631,20 +564,90 @@ export type PlasmicDisposableCollection__OverridesType = {
   div192?: p.Flex<"div">;
   div193?: p.Flex<"div">;
   div194?: p.Flex<"div">;
-  div195?: p.Flex<"div">;
+  div195?: p.Flex<"a"> & Partial<LinkProps>;
   label27?: p.Flex<"div">;
   strawberry14?: p.Flex<"div">;
-  div196?: p.Flex<"div">;
+  div196?: p.Flex<"a"> & Partial<LinkProps>;
   label28?: p.Flex<"div">;
   vanilla14?: p.Flex<"div">;
   div197?: p.Flex<"div">;
-  buttonAddToCart43324944548533?: p.Flex<"div">;
+  buttonAddToCart43324944548533?: p.Flex<"a"> & Partial<LinkProps>;
+  div163?: p.Flex<"div">;
+  a15?: p.Flex<"div">;
+  productFuel250X2502Xjpg3?: p.Flex<"a"> & Partial<LinkProps>;
+  div164?: p.Flex<"div">;
+  _43Rating447Votes11?: p.Flex<"div">;
+  i51?: p.Flex<"div">;
+  i52?: p.Flex<"div">;
+  i53?: p.Flex<"div">;
+  i54?: p.Flex<"div">;
+  i55?: p.Flex<"div">;
+  form11?: p.Flex<"div">;
+  div165?: p.Flex<"div">;
+  div166?: p.Flex<"div">;
+  div167?: p.Flex<"div">;
+  div168?: p.Flex<"a"> & Partial<LinkProps>;
+  label21?: p.Flex<"div">;
+  strawberry11?: p.Flex<"div">;
+  div169?: p.Flex<"a"> & Partial<LinkProps>;
+  label22?: p.Flex<"div">;
+  vanilla11?: p.Flex<"div">;
+  div170?: p.Flex<"div">;
+  buttonAddToCart106242076283?: p.Flex<"a"> & Partial<LinkProps>;
+  div171?: p.Flex<"div">;
+  a16?: p.Flex<"div">;
+  productPureCca9Dd58D8Da49AcB531F6Abd24468Da250X2502Xjpg3?: p.Flex<"a"> &
+    Partial<LinkProps>;
+  div172?: p.Flex<"div">;
+  _43Rating447Votes12?: p.Flex<"div">;
+  i56?: p.Flex<"div">;
+  i57?: p.Flex<"div">;
+  i58?: p.Flex<"div">;
+  i59?: p.Flex<"div">;
+  i60?: p.Flex<"div">;
+  div173?: p.Flex<"div">;
+  form12?: p.Flex<"div">;
+  div174?: p.Flex<"div">;
+  div175?: p.Flex<"div">;
+  div176?: p.Flex<"div">;
+  div177?: p.Flex<"a"> & Partial<LinkProps>;
+  label23?: p.Flex<"div">;
+  strawberry12?: p.Flex<"div">;
+  div178?: p.Flex<"a"> & Partial<LinkProps>;
+  label24?: p.Flex<"div">;
+  vanilla12?: p.Flex<"div">;
+  div179?: p.Flex<"div">;
+  buttonAddToCart106242143483?: p.Flex<"a"> & Partial<LinkProps>;
+  div180?: p.Flex<"div">;
+  a17?: p.Flex<"div">;
+  productMeltE5Ee4B8CB3944Dfa969D133320737857250X2502Xjpg3?: p.Flex<"a"> &
+    Partial<LinkProps>;
+  div181?: p.Flex<"div">;
+  _43Rating447Votes13?: p.Flex<"div">;
+  i61?: p.Flex<"div">;
+  i62?: p.Flex<"div">;
+  i63?: p.Flex<"div">;
+  i64?: p.Flex<"div">;
+  i65?: p.Flex<"div">;
+  div182?: p.Flex<"div">;
+  form13?: p.Flex<"div">;
+  div183?: p.Flex<"div">;
+  div184?: p.Flex<"div">;
+  div185?: p.Flex<"div">;
+  div186?: p.Flex<"a"> & Partial<LinkProps>;
+  label25?: p.Flex<"div">;
+  strawberry13?: p.Flex<"div">;
+  div187?: p.Flex<"a"> & Partial<LinkProps>;
+  label26?: p.Flex<"div">;
+  vanilla13?: p.Flex<"div">;
+  div188?: p.Flex<"div">;
+  buttonAddToCart106242249723?: p.Flex<"a"> & Partial<LinkProps>;
   div198?: p.Flex<"div">;
   div199?: p.Flex<"div">;
   div200?: p.Flex<"div">;
   div201?: p.Flex<"div">;
   a19?: p.Flex<"div">;
-  packaging6Upright09FinalMin250X2502Xjpg3?: p.Flex<"div">;
+  packaging6Upright09FinalMin250X2502Xjpg3?: p.Flex<"a"> & Partial<LinkProps>;
   div202?: p.Flex<"div">;
   _43Rating447Votes15?: p.Flex<"div">;
   i71?: p.Flex<"div">;
@@ -652,23 +655,23 @@ export type PlasmicDisposableCollection__OverridesType = {
   i73?: p.Flex<"div">;
   i74?: p.Flex<"div">;
   i75?: p.Flex<"div">;
-  div203?: p.Flex<"div">;
+  div203?: p.Flex<"a"> & Partial<LinkProps>;
   span10?: p.Flex<"div">;
   bestValue3?: p.Flex<"div">;
   form15?: p.Flex<"div">;
   div204?: p.Flex<"div">;
   div205?: p.Flex<"div">;
-  div206?: p.Flex<"div">;
+  div206?: p.Flex<"a"> & Partial<LinkProps>;
   label29?: p.Flex<"div">;
   strawberry15?: p.Flex<"div">;
-  div207?: p.Flex<"div">;
+  div207?: p.Flex<"a"> & Partial<LinkProps>;
   label30?: p.Flex<"div">;
   vanilla15?: p.Flex<"div">;
   div208?: p.Flex<"div">;
-  buttonAddToCart43324429107893?: p.Flex<"div">;
+  buttonAddToCart43324429107893?: p.Flex<"a"> & Partial<LinkProps>;
   div209?: p.Flex<"div">;
   a20?: p.Flex<"div">;
-  productSecBan1Jpg3?: p.Flex<"div">;
+  productSecBan1Jpg3?: p.Flex<"a"> & Partial<LinkProps>;
   lookingToSaveEvenMoreCheckOutOurMonthlySparqPlans3?: p.Flex<"div">;
   section3?: p.Flex<"div">;
   div210?: p.Flex<"div">;
@@ -692,7 +695,7 @@ export type PlasmicDisposableCollection__OverridesType = {
   weUseAPercentageOfYourPurchaseToEmpowerInnovativeStartUpsToSolveHumanitysMostPressingEnvironmentalChallenges3?: p.Flex<"div">;
   divshopifySectionFooter3?: p.Flex<"div">;
   div216?: p.Flex<"div">;
-  footerLogopng3?: p.Flex<"div">;
+  footerLogopng3?: p.Flex<"a"> & Partial<LinkProps>;
   div217?: p.Flex<"div">;
   div218?: p.Flex<"div">;
   div219?: p.Flex<"div">;
@@ -737,9 +740,9 @@ export type PlasmicDisposableCollection__OverridesType = {
   freeShippingOnOr?: p.Flex<"div">;
   header3?: p.Flex<"div">;
   div229?: p.Flex<"div">;
-  svg16?: p.Flex<"div">;
-  sparqLogo125Xpng3?: p.Flex<"div">;
-  div230?: p.Flex<"div">;
+  svg16?: p.Flex<"a"> & Partial<LinkProps>;
+  sparqLogo125Xpng3?: p.Flex<"a"> & Partial<LinkProps>;
+  div230?: p.Flex<"a"> & Partial<LinkProps>;
   svg17?: p.Flex<"div">;
 };
 
@@ -7697,1006 +7700,6 @@ function PlasmicDisposableCollection__RenderFunc(props: {
                         className={classNames(projectcss.all, sty.div162)}
                       >
                         <div
-                          data-plasmic-name={"div163"}
-                          data-plasmic-override={overrides.div163}
-                          className={classNames(projectcss.all, sty.div163)}
-                        >
-                          <div
-                            data-plasmic-name={"a15"}
-                            data-plasmic-override={overrides.a15}
-                            className={classNames(projectcss.all, sty.a15)}
-                          >
-                            <div
-                              data-plasmic-name={"productFuel250X2502Xjpg3"}
-                              data-plasmic-override={
-                                overrides.productFuel250X2502Xjpg3
-                              }
-                              className={classNames(
-                                projectcss.all,
-                                sty.productFuel250X2502Xjpg3
-                              )}
-                            />
-
-                            <div
-                              data-plasmic-name={"div164"}
-                              data-plasmic-override={overrides.div164}
-                              className={classNames(projectcss.all, sty.div164)}
-                            >
-                              <div
-                                className={classNames(
-                                  projectcss.all,
-                                  projectcss.__wab_text,
-                                  sty.text___9NVzs
-                                )}
-                              >
-                                {"Fuel"}
-                              </div>
-
-                              <div
-                                data-plasmic-name={"_43Rating447Votes11"}
-                                data-plasmic-override={
-                                  overrides._43Rating447Votes11
-                                }
-                                className={classNames(
-                                  projectcss.all,
-                                  sty._43Rating447Votes11
-                                )}
-                              >
-                                <div
-                                  data-plasmic-name={"i51"}
-                                  data-plasmic-override={overrides.i51}
-                                  className={classNames(
-                                    projectcss.all,
-                                    sty.i51
-                                  )}
-                                >
-                                  <div
-                                    className={classNames(
-                                      projectcss.all,
-                                      projectcss.__wab_text,
-                                      sty.text__zu31J
-                                    )}
-                                  >
-                                    {"★"}
-                                  </div>
-                                </div>
-
-                                <div
-                                  data-plasmic-name={"i52"}
-                                  data-plasmic-override={overrides.i52}
-                                  className={classNames(
-                                    projectcss.all,
-                                    sty.i52
-                                  )}
-                                >
-                                  <div
-                                    className={classNames(
-                                      projectcss.all,
-                                      projectcss.__wab_text,
-                                      sty.text__ot2Yc
-                                    )}
-                                  >
-                                    {"★"}
-                                  </div>
-                                </div>
-
-                                <div
-                                  data-plasmic-name={"i53"}
-                                  data-plasmic-override={overrides.i53}
-                                  className={classNames(
-                                    projectcss.all,
-                                    sty.i53
-                                  )}
-                                >
-                                  <div
-                                    className={classNames(
-                                      projectcss.all,
-                                      projectcss.__wab_text,
-                                      sty.text__weS77
-                                    )}
-                                  >
-                                    {"★"}
-                                  </div>
-                                </div>
-
-                                <div
-                                  data-plasmic-name={"i54"}
-                                  data-plasmic-override={overrides.i54}
-                                  className={classNames(
-                                    projectcss.all,
-                                    sty.i54
-                                  )}
-                                >
-                                  <div
-                                    className={classNames(
-                                      projectcss.all,
-                                      projectcss.__wab_text,
-                                      sty.text__l2W84
-                                    )}
-                                  >
-                                    {"★"}
-                                  </div>
-                                </div>
-
-                                <div
-                                  data-plasmic-name={"i55"}
-                                  data-plasmic-override={overrides.i55}
-                                  className={classNames(
-                                    projectcss.all,
-                                    sty.i55
-                                  )}
-                                >
-                                  <div
-                                    className={classNames(
-                                      projectcss.all,
-                                      projectcss.__wab_text,
-                                      sty.text___138PD
-                                    )}
-                                  >
-                                    {"★"}
-                                  </div>
-                                </div>
-
-                                <div
-                                  className={classNames(
-                                    projectcss.all,
-                                    projectcss.__wab_text,
-                                    sty.text__qGpGn
-                                  )}
-                                >
-                                  {"(447)"}
-                                </div>
-                              </div>
-
-                              <div
-                                className={classNames(
-                                  projectcss.all,
-                                  projectcss.__wab_text,
-                                  sty.text___3Uyjp
-                                )}
-                              >
-                                {"$20"}
-                              </div>
-
-                              <div
-                                className={classNames(
-                                  projectcss.all,
-                                  projectcss.__wab_text,
-                                  sty.text__c4WUu
-                                )}
-                              >
-                                {"Energy-Enhancing"}
-                              </div>
-                            </div>
-                          </div>
-
-                          <div
-                            data-plasmic-name={"form11"}
-                            data-plasmic-override={overrides.form11}
-                            className={classNames(projectcss.all, sty.form11)}
-                          >
-                            <div
-                              data-plasmic-name={"div165"}
-                              data-plasmic-override={overrides.div165}
-                              className={classNames(projectcss.all, sty.div165)}
-                            >
-                              <p.Stack
-                                as={"div"}
-                                data-plasmic-name={"div166"}
-                                data-plasmic-override={overrides.div166}
-                                hasGap={true}
-                                className={classNames(
-                                  projectcss.all,
-                                  sty.div166
-                                )}
-                              >
-                                <div
-                                  className={classNames(
-                                    projectcss.all,
-                                    projectcss.__wab_text,
-                                    sty.text___4IWtj
-                                  )}
-                                >
-                                  {"Choose Flavor"}
-                                </div>
-
-                                <p.Stack
-                                  as={"div"}
-                                  data-plasmic-name={"div167"}
-                                  data-plasmic-override={overrides.div167}
-                                  hasGap={true}
-                                  className={classNames(
-                                    projectcss.all,
-                                    sty.div167
-                                  )}
-                                >
-                                  <div
-                                    data-plasmic-name={"div168"}
-                                    data-plasmic-override={overrides.div168}
-                                    className={classNames(
-                                      projectcss.all,
-                                      sty.div168
-                                    )}
-                                  >
-                                    <div
-                                      data-plasmic-name={"label21"}
-                                      data-plasmic-override={overrides.label21}
-                                      className={classNames(
-                                        projectcss.all,
-                                        sty.label21
-                                      )}
-                                    />
-
-                                    <div
-                                      data-plasmic-name={"strawberry11"}
-                                      data-plasmic-override={
-                                        overrides.strawberry11
-                                      }
-                                      className={classNames(
-                                        projectcss.all,
-                                        sty.strawberry11
-                                      )}
-                                    >
-                                      <div
-                                        className={classNames(
-                                          projectcss.all,
-                                          projectcss.__wab_text,
-                                          sty.text__vp2FH
-                                        )}
-                                      >
-                                        {"Strawberry"}
-                                      </div>
-                                    </div>
-                                  </div>
-
-                                  <div
-                                    data-plasmic-name={"div169"}
-                                    data-plasmic-override={overrides.div169}
-                                    className={classNames(
-                                      projectcss.all,
-                                      sty.div169
-                                    )}
-                                  >
-                                    <div
-                                      data-plasmic-name={"label22"}
-                                      data-plasmic-override={overrides.label22}
-                                      className={classNames(
-                                        projectcss.all,
-                                        sty.label22
-                                      )}
-                                    />
-
-                                    <div
-                                      data-plasmic-name={"vanilla11"}
-                                      data-plasmic-override={
-                                        overrides.vanilla11
-                                      }
-                                      className={classNames(
-                                        projectcss.all,
-                                        sty.vanilla11
-                                      )}
-                                    >
-                                      <div
-                                        className={classNames(
-                                          projectcss.all,
-                                          projectcss.__wab_text,
-                                          sty.text___4OP7Y
-                                        )}
-                                      >
-                                        {"Vanilla"}
-                                      </div>
-                                    </div>
-                                  </div>
-                                </p.Stack>
-                              </p.Stack>
-                            </div>
-
-                            <div
-                              data-plasmic-name={"div170"}
-                              data-plasmic-override={overrides.div170}
-                              className={classNames(projectcss.all, sty.div170)}
-                            >
-                              <div
-                                data-plasmic-name={
-                                  "buttonAddToCart106242076283"
-                                }
-                                data-plasmic-override={
-                                  overrides.buttonAddToCart106242076283
-                                }
-                                className={classNames(
-                                  projectcss.all,
-                                  sty.buttonAddToCart106242076283
-                                )}
-                              >
-                                <div
-                                  className={classNames(
-                                    projectcss.all,
-                                    projectcss.__wab_text,
-                                    sty.text__daFe3
-                                  )}
-                                >
-                                  {"SHOP NOW"}
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-
-                        <div
-                          data-plasmic-name={"div171"}
-                          data-plasmic-override={overrides.div171}
-                          className={classNames(projectcss.all, sty.div171)}
-                        >
-                          <div
-                            data-plasmic-name={"a16"}
-                            data-plasmic-override={overrides.a16}
-                            className={classNames(projectcss.all, sty.a16)}
-                          >
-                            <div
-                              data-plasmic-name={
-                                "productPureCca9Dd58D8Da49AcB531F6Abd24468Da250X2502Xjpg3"
-                              }
-                              data-plasmic-override={
-                                overrides.productPureCca9Dd58D8Da49AcB531F6Abd24468Da250X2502Xjpg3
-                              }
-                              className={classNames(
-                                projectcss.all,
-                                sty.productPureCca9Dd58D8Da49AcB531F6Abd24468Da250X2502Xjpg3
-                              )}
-                            />
-
-                            <div
-                              data-plasmic-name={"div172"}
-                              data-plasmic-override={overrides.div172}
-                              className={classNames(projectcss.all, sty.div172)}
-                            >
-                              <div
-                                className={classNames(
-                                  projectcss.all,
-                                  projectcss.__wab_text,
-                                  sty.text__kwzaG
-                                )}
-                              >
-                                {"Pure"}
-                              </div>
-
-                              <div
-                                data-plasmic-name={"_43Rating447Votes12"}
-                                data-plasmic-override={
-                                  overrides._43Rating447Votes12
-                                }
-                                className={classNames(
-                                  projectcss.all,
-                                  sty._43Rating447Votes12
-                                )}
-                              >
-                                <div
-                                  data-plasmic-name={"i56"}
-                                  data-plasmic-override={overrides.i56}
-                                  className={classNames(
-                                    projectcss.all,
-                                    sty.i56
-                                  )}
-                                >
-                                  <div
-                                    className={classNames(
-                                      projectcss.all,
-                                      projectcss.__wab_text,
-                                      sty.text__j4LAc
-                                    )}
-                                  >
-                                    {"★"}
-                                  </div>
-                                </div>
-
-                                <div
-                                  data-plasmic-name={"i57"}
-                                  data-plasmic-override={overrides.i57}
-                                  className={classNames(
-                                    projectcss.all,
-                                    sty.i57
-                                  )}
-                                >
-                                  <div
-                                    className={classNames(
-                                      projectcss.all,
-                                      projectcss.__wab_text,
-                                      sty.text__q6D1C
-                                    )}
-                                  >
-                                    {"★"}
-                                  </div>
-                                </div>
-
-                                <div
-                                  data-plasmic-name={"i58"}
-                                  data-plasmic-override={overrides.i58}
-                                  className={classNames(
-                                    projectcss.all,
-                                    sty.i58
-                                  )}
-                                >
-                                  <div
-                                    className={classNames(
-                                      projectcss.all,
-                                      projectcss.__wab_text,
-                                      sty.text__pgKpj
-                                    )}
-                                  >
-                                    {"★"}
-                                  </div>
-                                </div>
-
-                                <div
-                                  data-plasmic-name={"i59"}
-                                  data-plasmic-override={overrides.i59}
-                                  className={classNames(
-                                    projectcss.all,
-                                    sty.i59
-                                  )}
-                                >
-                                  <div
-                                    className={classNames(
-                                      projectcss.all,
-                                      projectcss.__wab_text,
-                                      sty.text__joy3N
-                                    )}
-                                  >
-                                    {"★"}
-                                  </div>
-                                </div>
-
-                                <div
-                                  data-plasmic-name={"i60"}
-                                  data-plasmic-override={overrides.i60}
-                                  className={classNames(
-                                    projectcss.all,
-                                    sty.i60
-                                  )}
-                                >
-                                  <div
-                                    className={classNames(
-                                      projectcss.all,
-                                      projectcss.__wab_text,
-                                      sty.text__qADnH
-                                    )}
-                                  >
-                                    {"★"}
-                                  </div>
-                                </div>
-
-                                <div
-                                  className={classNames(
-                                    projectcss.all,
-                                    projectcss.__wab_text,
-                                    sty.text__vpvSm
-                                  )}
-                                >
-                                  {"(447)"}
-                                </div>
-                              </div>
-
-                              <div
-                                className={classNames(
-                                  projectcss.all,
-                                  projectcss.__wab_text,
-                                  sty.text__lAxz0
-                                )}
-                              >
-                                {"$20"}
-                              </div>
-
-                              <div
-                                data-plasmic-name={"div173"}
-                                data-plasmic-override={overrides.div173}
-                                className={classNames(
-                                  projectcss.all,
-                                  sty.div173
-                                )}
-                              >
-                                <div
-                                  className={classNames(
-                                    projectcss.all,
-                                    projectcss.__wab_text,
-                                    sty.text__oJEot
-                                  )}
-                                >
-                                  {"Age-Defying"}
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-
-                          <div
-                            data-plasmic-name={"form12"}
-                            data-plasmic-override={overrides.form12}
-                            className={classNames(projectcss.all, sty.form12)}
-                          >
-                            <div
-                              data-plasmic-name={"div174"}
-                              data-plasmic-override={overrides.div174}
-                              className={classNames(projectcss.all, sty.div174)}
-                            >
-                              <p.Stack
-                                as={"div"}
-                                data-plasmic-name={"div175"}
-                                data-plasmic-override={overrides.div175}
-                                hasGap={true}
-                                className={classNames(
-                                  projectcss.all,
-                                  sty.div175
-                                )}
-                              >
-                                <div
-                                  className={classNames(
-                                    projectcss.all,
-                                    projectcss.__wab_text,
-                                    sty.text__zuumb
-                                  )}
-                                >
-                                  {"Choose Flavor"}
-                                </div>
-
-                                <p.Stack
-                                  as={"div"}
-                                  data-plasmic-name={"div176"}
-                                  data-plasmic-override={overrides.div176}
-                                  hasGap={true}
-                                  className={classNames(
-                                    projectcss.all,
-                                    sty.div176
-                                  )}
-                                >
-                                  <div
-                                    data-plasmic-name={"div177"}
-                                    data-plasmic-override={overrides.div177}
-                                    className={classNames(
-                                      projectcss.all,
-                                      sty.div177
-                                    )}
-                                  >
-                                    <div
-                                      data-plasmic-name={"label23"}
-                                      data-plasmic-override={overrides.label23}
-                                      className={classNames(
-                                        projectcss.all,
-                                        sty.label23
-                                      )}
-                                    />
-
-                                    <div
-                                      data-plasmic-name={"strawberry12"}
-                                      data-plasmic-override={
-                                        overrides.strawberry12
-                                      }
-                                      className={classNames(
-                                        projectcss.all,
-                                        sty.strawberry12
-                                      )}
-                                    >
-                                      <div
-                                        className={classNames(
-                                          projectcss.all,
-                                          projectcss.__wab_text,
-                                          sty.text__fj52R
-                                        )}
-                                      >
-                                        {"Strawberry"}
-                                      </div>
-                                    </div>
-                                  </div>
-
-                                  <div
-                                    data-plasmic-name={"div178"}
-                                    data-plasmic-override={overrides.div178}
-                                    className={classNames(
-                                      projectcss.all,
-                                      sty.div178
-                                    )}
-                                  >
-                                    <div
-                                      data-plasmic-name={"label24"}
-                                      data-plasmic-override={overrides.label24}
-                                      className={classNames(
-                                        projectcss.all,
-                                        sty.label24
-                                      )}
-                                    />
-
-                                    <div
-                                      data-plasmic-name={"vanilla12"}
-                                      data-plasmic-override={
-                                        overrides.vanilla12
-                                      }
-                                      className={classNames(
-                                        projectcss.all,
-                                        sty.vanilla12
-                                      )}
-                                    >
-                                      <div
-                                        className={classNames(
-                                          projectcss.all,
-                                          projectcss.__wab_text,
-                                          sty.text__tMpBe
-                                        )}
-                                      >
-                                        {"Vanilla"}
-                                      </div>
-                                    </div>
-                                  </div>
-                                </p.Stack>
-                              </p.Stack>
-                            </div>
-
-                            <div
-                              data-plasmic-name={"div179"}
-                              data-plasmic-override={overrides.div179}
-                              className={classNames(projectcss.all, sty.div179)}
-                            >
-                              <div
-                                data-plasmic-name={
-                                  "buttonAddToCart106242143483"
-                                }
-                                data-plasmic-override={
-                                  overrides.buttonAddToCart106242143483
-                                }
-                                className={classNames(
-                                  projectcss.all,
-                                  sty.buttonAddToCart106242143483
-                                )}
-                              >
-                                <div
-                                  className={classNames(
-                                    projectcss.all,
-                                    projectcss.__wab_text,
-                                    sty.text__eZPkA
-                                  )}
-                                >
-                                  {"SHOP NOW"}
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-
-                        <div
-                          data-plasmic-name={"div180"}
-                          data-plasmic-override={overrides.div180}
-                          className={classNames(projectcss.all, sty.div180)}
-                        >
-                          <div
-                            data-plasmic-name={"a17"}
-                            data-plasmic-override={overrides.a17}
-                            className={classNames(projectcss.all, sty.a17)}
-                          >
-                            <div
-                              data-plasmic-name={
-                                "productMeltE5Ee4B8CB3944Dfa969D133320737857250X2502Xjpg3"
-                              }
-                              data-plasmic-override={
-                                overrides.productMeltE5Ee4B8CB3944Dfa969D133320737857250X2502Xjpg3
-                              }
-                              className={classNames(
-                                projectcss.all,
-                                sty.productMeltE5Ee4B8Cb3944Dfa969D133320737857250X2502Xjpg3
-                              )}
-                            />
-
-                            <div
-                              data-plasmic-name={"div181"}
-                              data-plasmic-override={overrides.div181}
-                              className={classNames(projectcss.all, sty.div181)}
-                            >
-                              <div
-                                className={classNames(
-                                  projectcss.all,
-                                  projectcss.__wab_text,
-                                  sty.text___17X9F
-                                )}
-                              >
-                                {"Melt"}
-                              </div>
-
-                              <div
-                                data-plasmic-name={"_43Rating447Votes13"}
-                                data-plasmic-override={
-                                  overrides._43Rating447Votes13
-                                }
-                                className={classNames(
-                                  projectcss.all,
-                                  sty._43Rating447Votes13
-                                )}
-                              >
-                                <div
-                                  data-plasmic-name={"i61"}
-                                  data-plasmic-override={overrides.i61}
-                                  className={classNames(
-                                    projectcss.all,
-                                    sty.i61
-                                  )}
-                                >
-                                  <div
-                                    className={classNames(
-                                      projectcss.all,
-                                      projectcss.__wab_text,
-                                      sty.text___2VmMb
-                                    )}
-                                  >
-                                    {"★"}
-                                  </div>
-                                </div>
-
-                                <div
-                                  data-plasmic-name={"i62"}
-                                  data-plasmic-override={overrides.i62}
-                                  className={classNames(
-                                    projectcss.all,
-                                    sty.i62
-                                  )}
-                                >
-                                  <div
-                                    className={classNames(
-                                      projectcss.all,
-                                      projectcss.__wab_text,
-                                      sty.text__j6Wn3
-                                    )}
-                                  >
-                                    {"★"}
-                                  </div>
-                                </div>
-
-                                <div
-                                  data-plasmic-name={"i63"}
-                                  data-plasmic-override={overrides.i63}
-                                  className={classNames(
-                                    projectcss.all,
-                                    sty.i63
-                                  )}
-                                >
-                                  <div
-                                    className={classNames(
-                                      projectcss.all,
-                                      projectcss.__wab_text,
-                                      sty.text__ns3OJ
-                                    )}
-                                  >
-                                    {"★"}
-                                  </div>
-                                </div>
-
-                                <div
-                                  data-plasmic-name={"i64"}
-                                  data-plasmic-override={overrides.i64}
-                                  className={classNames(
-                                    projectcss.all,
-                                    sty.i64
-                                  )}
-                                >
-                                  <div
-                                    className={classNames(
-                                      projectcss.all,
-                                      projectcss.__wab_text,
-                                      sty.text__abSi
-                                    )}
-                                  >
-                                    {"★"}
-                                  </div>
-                                </div>
-
-                                <div
-                                  data-plasmic-name={"i65"}
-                                  data-plasmic-override={overrides.i65}
-                                  className={classNames(
-                                    projectcss.all,
-                                    sty.i65
-                                  )}
-                                >
-                                  <div
-                                    className={classNames(
-                                      projectcss.all,
-                                      projectcss.__wab_text,
-                                      sty.text__azHem
-                                    )}
-                                  >
-                                    {"★"}
-                                  </div>
-                                </div>
-
-                                <div
-                                  className={classNames(
-                                    projectcss.all,
-                                    projectcss.__wab_text,
-                                    sty.text__xRykP
-                                  )}
-                                >
-                                  {"(447)"}
-                                </div>
-                              </div>
-
-                              <div
-                                className={classNames(
-                                  projectcss.all,
-                                  projectcss.__wab_text,
-                                  sty.text__rulPu
-                                )}
-                              >
-                                {"$20"}
-                              </div>
-
-                              <div
-                                data-plasmic-name={"div182"}
-                                data-plasmic-override={overrides.div182}
-                                className={classNames(
-                                  projectcss.all,
-                                  sty.div182
-                                )}
-                              >
-                                <div
-                                  className={classNames(
-                                    projectcss.all,
-                                    projectcss.__wab_text,
-                                    sty.text__w9IrV
-                                  )}
-                                >
-                                  {"Metabolism-Boosting"}
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-
-                          <div
-                            data-plasmic-name={"form13"}
-                            data-plasmic-override={overrides.form13}
-                            className={classNames(projectcss.all, sty.form13)}
-                          >
-                            <div
-                              data-plasmic-name={"div183"}
-                              data-plasmic-override={overrides.div183}
-                              className={classNames(projectcss.all, sty.div183)}
-                            >
-                              <p.Stack
-                                as={"div"}
-                                data-plasmic-name={"div184"}
-                                data-plasmic-override={overrides.div184}
-                                hasGap={true}
-                                className={classNames(
-                                  projectcss.all,
-                                  sty.div184
-                                )}
-                              >
-                                <div
-                                  className={classNames(
-                                    projectcss.all,
-                                    projectcss.__wab_text,
-                                    sty.text__zBvo
-                                  )}
-                                >
-                                  {"Choose Flavor"}
-                                </div>
-
-                                <p.Stack
-                                  as={"div"}
-                                  data-plasmic-name={"div185"}
-                                  data-plasmic-override={overrides.div185}
-                                  hasGap={true}
-                                  className={classNames(
-                                    projectcss.all,
-                                    sty.div185
-                                  )}
-                                >
-                                  <div
-                                    data-plasmic-name={"div186"}
-                                    data-plasmic-override={overrides.div186}
-                                    className={classNames(
-                                      projectcss.all,
-                                      sty.div186
-                                    )}
-                                  >
-                                    <div
-                                      data-plasmic-name={"label25"}
-                                      data-plasmic-override={overrides.label25}
-                                      className={classNames(
-                                        projectcss.all,
-                                        sty.label25
-                                      )}
-                                    />
-
-                                    <div
-                                      data-plasmic-name={"strawberry13"}
-                                      data-plasmic-override={
-                                        overrides.strawberry13
-                                      }
-                                      className={classNames(
-                                        projectcss.all,
-                                        sty.strawberry13
-                                      )}
-                                    >
-                                      <div
-                                        className={classNames(
-                                          projectcss.all,
-                                          projectcss.__wab_text,
-                                          sty.text__bKZeN
-                                        )}
-                                      >
-                                        {"Strawberry"}
-                                      </div>
-                                    </div>
-                                  </div>
-
-                                  <div
-                                    data-plasmic-name={"div187"}
-                                    data-plasmic-override={overrides.div187}
-                                    className={classNames(
-                                      projectcss.all,
-                                      sty.div187
-                                    )}
-                                  >
-                                    <div
-                                      data-plasmic-name={"label26"}
-                                      data-plasmic-override={overrides.label26}
-                                      className={classNames(
-                                        projectcss.all,
-                                        sty.label26
-                                      )}
-                                    />
-
-                                    <div
-                                      data-plasmic-name={"vanilla13"}
-                                      data-plasmic-override={
-                                        overrides.vanilla13
-                                      }
-                                      className={classNames(
-                                        projectcss.all,
-                                        sty.vanilla13
-                                      )}
-                                    >
-                                      <div
-                                        className={classNames(
-                                          projectcss.all,
-                                          projectcss.__wab_text,
-                                          sty.text__u8NMc
-                                        )}
-                                      >
-                                        {"Vanilla"}
-                                      </div>
-                                    </div>
-                                  </div>
-                                </p.Stack>
-                              </p.Stack>
-                            </div>
-
-                            <div
-                              data-plasmic-name={"div188"}
-                              data-plasmic-override={overrides.div188}
-                              className={classNames(projectcss.all, sty.div188)}
-                            >
-                              <div
-                                data-plasmic-name={
-                                  "buttonAddToCart106242249723"
-                                }
-                                data-plasmic-override={
-                                  overrides.buttonAddToCart106242249723
-                                }
-                                className={classNames(
-                                  projectcss.all,
-                                  sty.buttonAddToCart106242249723
-                                )}
-                              >
-                                <div
-                                  className={classNames(
-                                    projectcss.all,
-                                    projectcss.__wab_text,
-                                    sty.text__gpd2U
-                                  )}
-                                >
-                                  {"SHOP NOW"}
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-
-                        <div
                           data-plasmic-name={"div189"}
                           data-plasmic-override={overrides.div189}
                           className={classNames(projectcss.all, sty.div189)}
@@ -8706,7 +7709,7 @@ function PlasmicDisposableCollection__RenderFunc(props: {
                             data-plasmic-override={overrides.a18}
                             className={classNames(projectcss.all, sty.a18)}
                           >
-                            <div
+                            <p.PlasmicLink
                               data-plasmic-name={
                                 "productVariety1C2E7Bd9Ac9C4989Bfad811526Dad7E0250X2502Xjpg3"
                               }
@@ -8715,8 +7718,14 @@ function PlasmicDisposableCollection__RenderFunc(props: {
                               }
                               className={classNames(
                                 projectcss.all,
+                                projectcss.a,
                                 sty.productVariety1C2E7Bd9Ac9C4989Bfad811526Dad7E0250X2502Xjpg3
                               )}
+                              component={Link}
+                              href={
+                                "https://shop.lifehacksplus.com/discount/QUIT15?redirect=/collections/all/products/3-pack?variant=31099464122437" as const
+                              }
+                              platform={"nextjs"}
                             />
 
                             <div
@@ -8946,13 +7955,19 @@ function PlasmicDisposableCollection__RenderFunc(props: {
                                     sty.div194
                                   )}
                                 >
-                                  <div
+                                  <p.PlasmicLink
                                     data-plasmic-name={"div195"}
                                     data-plasmic-override={overrides.div195}
                                     className={classNames(
                                       projectcss.all,
+                                      projectcss.a,
                                       sty.div195
                                     )}
+                                    component={Link}
+                                    href={
+                                      "https://shop.lifehacksplus.com/discount/QUIT15?redirect=/collections/all/products/3-pack?variant=31099464122437" as const
+                                    }
+                                    platform={"nextjs"}
                                   >
                                     <div
                                       data-plasmic-name={"label27"}
@@ -8983,15 +7998,21 @@ function PlasmicDisposableCollection__RenderFunc(props: {
                                         {"Strawberry"}
                                       </div>
                                     </div>
-                                  </div>
+                                  </p.PlasmicLink>
 
-                                  <div
+                                  <p.PlasmicLink
                                     data-plasmic-name={"div196"}
                                     data-plasmic-override={overrides.div196}
                                     className={classNames(
                                       projectcss.all,
+                                      projectcss.a,
                                       sty.div196
                                     )}
+                                    component={Link}
+                                    href={
+                                      "https://shop.lifehacksplus.com/discount/QUIT15?redirect=/collections/all/products/3-pack?variant=31099464122437" as const
+                                    }
+                                    platform={"nextjs"}
                                   >
                                     <div
                                       data-plasmic-name={"label28"}
@@ -9022,7 +8043,7 @@ function PlasmicDisposableCollection__RenderFunc(props: {
                                         {"Vanilla"}
                                       </div>
                                     </div>
-                                  </div>
+                                  </p.PlasmicLink>
                                 </p.Stack>
                               </p.Stack>
                             </div>
@@ -9032,7 +8053,7 @@ function PlasmicDisposableCollection__RenderFunc(props: {
                               data-plasmic-override={overrides.div197}
                               className={classNames(projectcss.all, sty.div197)}
                             >
-                              <div
+                              <p.PlasmicLink
                                 data-plasmic-name={
                                   "buttonAddToCart43324944548533"
                                 }
@@ -9041,8 +8062,14 @@ function PlasmicDisposableCollection__RenderFunc(props: {
                                 }
                                 className={classNames(
                                   projectcss.all,
+                                  projectcss.a,
                                   sty.buttonAddToCart43324944548533
                                 )}
+                                component={Link}
+                                href={
+                                  "https://shop.lifehacksplus.com/discount/QUIT15?redirect=/collections/all/products/3-pack?variant=31099464122437" as const
+                                }
+                                platform={"nextjs"}
                               >
                                 <div
                                   className={classNames(
@@ -9053,7 +8080,1079 @@ function PlasmicDisposableCollection__RenderFunc(props: {
                                 >
                                   {"SHOP NOW"}
                                 </div>
+                              </p.PlasmicLink>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div
+                          data-plasmic-name={"div163"}
+                          data-plasmic-override={overrides.div163}
+                          className={classNames(projectcss.all, sty.div163)}
+                        >
+                          <div
+                            data-plasmic-name={"a15"}
+                            data-plasmic-override={overrides.a15}
+                            className={classNames(projectcss.all, sty.a15)}
+                          >
+                            <p.PlasmicLink
+                              data-plasmic-name={"productFuel250X2502Xjpg3"}
+                              data-plasmic-override={
+                                overrides.productFuel250X2502Xjpg3
+                              }
+                              className={classNames(
+                                projectcss.all,
+                                projectcss.a,
+                                sty.productFuel250X2502Xjpg3
+                              )}
+                              component={Link}
+                              href={
+                                "https://shop.lifehacksplus.com/discount/QUIT15?redirect=/collections/all/products/fuel?variant=39394788108" as const
+                              }
+                              platform={"nextjs"}
+                            />
+
+                            <div
+                              data-plasmic-name={"div164"}
+                              data-plasmic-override={overrides.div164}
+                              className={classNames(projectcss.all, sty.div164)}
+                            >
+                              <div
+                                className={classNames(
+                                  projectcss.all,
+                                  projectcss.__wab_text,
+                                  sty.text___9NVzs
+                                )}
+                              >
+                                {"Fuel"}
                               </div>
+
+                              <div
+                                data-plasmic-name={"_43Rating447Votes11"}
+                                data-plasmic-override={
+                                  overrides._43Rating447Votes11
+                                }
+                                className={classNames(
+                                  projectcss.all,
+                                  sty._43Rating447Votes11
+                                )}
+                              >
+                                <div
+                                  data-plasmic-name={"i51"}
+                                  data-plasmic-override={overrides.i51}
+                                  className={classNames(
+                                    projectcss.all,
+                                    sty.i51
+                                  )}
+                                >
+                                  <div
+                                    className={classNames(
+                                      projectcss.all,
+                                      projectcss.__wab_text,
+                                      sty.text__zu31J
+                                    )}
+                                  >
+                                    {"★"}
+                                  </div>
+                                </div>
+
+                                <div
+                                  data-plasmic-name={"i52"}
+                                  data-plasmic-override={overrides.i52}
+                                  className={classNames(
+                                    projectcss.all,
+                                    sty.i52
+                                  )}
+                                >
+                                  <div
+                                    className={classNames(
+                                      projectcss.all,
+                                      projectcss.__wab_text,
+                                      sty.text__ot2Yc
+                                    )}
+                                  >
+                                    {"★"}
+                                  </div>
+                                </div>
+
+                                <div
+                                  data-plasmic-name={"i53"}
+                                  data-plasmic-override={overrides.i53}
+                                  className={classNames(
+                                    projectcss.all,
+                                    sty.i53
+                                  )}
+                                >
+                                  <div
+                                    className={classNames(
+                                      projectcss.all,
+                                      projectcss.__wab_text,
+                                      sty.text__weS77
+                                    )}
+                                  >
+                                    {"★"}
+                                  </div>
+                                </div>
+
+                                <div
+                                  data-plasmic-name={"i54"}
+                                  data-plasmic-override={overrides.i54}
+                                  className={classNames(
+                                    projectcss.all,
+                                    sty.i54
+                                  )}
+                                >
+                                  <div
+                                    className={classNames(
+                                      projectcss.all,
+                                      projectcss.__wab_text,
+                                      sty.text__l2W84
+                                    )}
+                                  >
+                                    {"★"}
+                                  </div>
+                                </div>
+
+                                <div
+                                  data-plasmic-name={"i55"}
+                                  data-plasmic-override={overrides.i55}
+                                  className={classNames(
+                                    projectcss.all,
+                                    sty.i55
+                                  )}
+                                >
+                                  <div
+                                    className={classNames(
+                                      projectcss.all,
+                                      projectcss.__wab_text,
+                                      sty.text___138PD
+                                    )}
+                                  >
+                                    {"★"}
+                                  </div>
+                                </div>
+
+                                <div
+                                  className={classNames(
+                                    projectcss.all,
+                                    projectcss.__wab_text,
+                                    sty.text__qGpGn
+                                  )}
+                                >
+                                  {"(447)"}
+                                </div>
+                              </div>
+
+                              <div
+                                className={classNames(
+                                  projectcss.all,
+                                  projectcss.__wab_text,
+                                  sty.text___3Uyjp
+                                )}
+                              >
+                                {"$20"}
+                              </div>
+
+                              <div
+                                className={classNames(
+                                  projectcss.all,
+                                  projectcss.__wab_text,
+                                  sty.text__c4WUu
+                                )}
+                              >
+                                {"Energy-Enhancing"}
+                              </div>
+                            </div>
+                          </div>
+
+                          <div
+                            data-plasmic-name={"form11"}
+                            data-plasmic-override={overrides.form11}
+                            className={classNames(projectcss.all, sty.form11)}
+                          >
+                            <div
+                              data-plasmic-name={"div165"}
+                              data-plasmic-override={overrides.div165}
+                              className={classNames(projectcss.all, sty.div165)}
+                            >
+                              <p.Stack
+                                as={"div"}
+                                data-plasmic-name={"div166"}
+                                data-plasmic-override={overrides.div166}
+                                hasGap={true}
+                                className={classNames(
+                                  projectcss.all,
+                                  sty.div166
+                                )}
+                              >
+                                <div
+                                  className={classNames(
+                                    projectcss.all,
+                                    projectcss.__wab_text,
+                                    sty.text___4IWtj
+                                  )}
+                                >
+                                  {"Choose Flavor"}
+                                </div>
+
+                                <p.Stack
+                                  as={"div"}
+                                  data-plasmic-name={"div167"}
+                                  data-plasmic-override={overrides.div167}
+                                  hasGap={true}
+                                  className={classNames(
+                                    projectcss.all,
+                                    sty.div167
+                                  )}
+                                >
+                                  <p.PlasmicLink
+                                    data-plasmic-name={"div168"}
+                                    data-plasmic-override={overrides.div168}
+                                    className={classNames(
+                                      projectcss.all,
+                                      projectcss.a,
+                                      sty.div168
+                                    )}
+                                    component={Link}
+                                    href={
+                                      "https://shop.lifehacksplus.com/discount/QUIT15?redirect=/collections/all/products/fuel?variant=39394788108" as const
+                                    }
+                                    platform={"nextjs"}
+                                  >
+                                    <div
+                                      data-plasmic-name={"label21"}
+                                      data-plasmic-override={overrides.label21}
+                                      className={classNames(
+                                        projectcss.all,
+                                        sty.label21
+                                      )}
+                                    />
+
+                                    <div
+                                      data-plasmic-name={"strawberry11"}
+                                      data-plasmic-override={
+                                        overrides.strawberry11
+                                      }
+                                      className={classNames(
+                                        projectcss.all,
+                                        sty.strawberry11
+                                      )}
+                                    >
+                                      <div
+                                        className={classNames(
+                                          projectcss.all,
+                                          projectcss.__wab_text,
+                                          sty.text__vp2FH
+                                        )}
+                                      >
+                                        {"Strawberry"}
+                                      </div>
+                                    </div>
+                                  </p.PlasmicLink>
+
+                                  <p.PlasmicLink
+                                    data-plasmic-name={"div169"}
+                                    data-plasmic-override={overrides.div169}
+                                    className={classNames(
+                                      projectcss.all,
+                                      projectcss.a,
+                                      sty.div169
+                                    )}
+                                    component={Link}
+                                    href={
+                                      "https://shop.lifehacksplus.com/discount/QUIT15?redirect=/collections/all/products/fuel?variant=39394788108" as const
+                                    }
+                                    platform={"nextjs"}
+                                  >
+                                    <div
+                                      data-plasmic-name={"label22"}
+                                      data-plasmic-override={overrides.label22}
+                                      className={classNames(
+                                        projectcss.all,
+                                        sty.label22
+                                      )}
+                                    />
+
+                                    <div
+                                      data-plasmic-name={"vanilla11"}
+                                      data-plasmic-override={
+                                        overrides.vanilla11
+                                      }
+                                      className={classNames(
+                                        projectcss.all,
+                                        sty.vanilla11
+                                      )}
+                                    >
+                                      <div
+                                        className={classNames(
+                                          projectcss.all,
+                                          projectcss.__wab_text,
+                                          sty.text___4OP7Y
+                                        )}
+                                      >
+                                        {"Vanilla"}
+                                      </div>
+                                    </div>
+                                  </p.PlasmicLink>
+                                </p.Stack>
+                              </p.Stack>
+                            </div>
+
+                            <div
+                              data-plasmic-name={"div170"}
+                              data-plasmic-override={overrides.div170}
+                              className={classNames(projectcss.all, sty.div170)}
+                            >
+                              <p.PlasmicLink
+                                data-plasmic-name={
+                                  "buttonAddToCart106242076283"
+                                }
+                                data-plasmic-override={
+                                  overrides.buttonAddToCart106242076283
+                                }
+                                className={classNames(
+                                  projectcss.all,
+                                  projectcss.a,
+                                  sty.buttonAddToCart106242076283
+                                )}
+                                component={Link}
+                                href={
+                                  "https://shop.lifehacksplus.com/discount/QUIT15?redirect=/collections/all/products/fuel?variant=39394788108" as const
+                                }
+                                platform={"nextjs"}
+                              >
+                                <div
+                                  className={classNames(
+                                    projectcss.all,
+                                    projectcss.__wab_text,
+                                    sty.text__daFe3
+                                  )}
+                                >
+                                  {"SHOP NOW"}
+                                </div>
+                              </p.PlasmicLink>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div
+                          data-plasmic-name={"div171"}
+                          data-plasmic-override={overrides.div171}
+                          className={classNames(projectcss.all, sty.div171)}
+                        >
+                          <div
+                            data-plasmic-name={"a16"}
+                            data-plasmic-override={overrides.a16}
+                            className={classNames(projectcss.all, sty.a16)}
+                          >
+                            <p.PlasmicLink
+                              data-plasmic-name={
+                                "productPureCca9Dd58D8Da49AcB531F6Abd24468Da250X2502Xjpg3"
+                              }
+                              data-plasmic-override={
+                                overrides.productPureCca9Dd58D8Da49AcB531F6Abd24468Da250X2502Xjpg3
+                              }
+                              className={classNames(
+                                projectcss.all,
+                                projectcss.a,
+                                sty.productPureCca9Dd58D8Da49AcB531F6Abd24468Da250X2502Xjpg3
+                              )}
+                              component={Link}
+                              href={
+                                "https://shop.lifehacksplus.com/discount/QUIT15?redirect=/collections/all/products/pure?variant=39394817036" as const
+                              }
+                              platform={"nextjs"}
+                            />
+
+                            <div
+                              data-plasmic-name={"div172"}
+                              data-plasmic-override={overrides.div172}
+                              className={classNames(projectcss.all, sty.div172)}
+                            >
+                              <div
+                                className={classNames(
+                                  projectcss.all,
+                                  projectcss.__wab_text,
+                                  sty.text__kwzaG
+                                )}
+                              >
+                                {"Pure"}
+                              </div>
+
+                              <div
+                                data-plasmic-name={"_43Rating447Votes12"}
+                                data-plasmic-override={
+                                  overrides._43Rating447Votes12
+                                }
+                                className={classNames(
+                                  projectcss.all,
+                                  sty._43Rating447Votes12
+                                )}
+                              >
+                                <div
+                                  data-plasmic-name={"i56"}
+                                  data-plasmic-override={overrides.i56}
+                                  className={classNames(
+                                    projectcss.all,
+                                    sty.i56
+                                  )}
+                                >
+                                  <div
+                                    className={classNames(
+                                      projectcss.all,
+                                      projectcss.__wab_text,
+                                      sty.text__j4LAc
+                                    )}
+                                  >
+                                    {"★"}
+                                  </div>
+                                </div>
+
+                                <div
+                                  data-plasmic-name={"i57"}
+                                  data-plasmic-override={overrides.i57}
+                                  className={classNames(
+                                    projectcss.all,
+                                    sty.i57
+                                  )}
+                                >
+                                  <div
+                                    className={classNames(
+                                      projectcss.all,
+                                      projectcss.__wab_text,
+                                      sty.text__q6D1C
+                                    )}
+                                  >
+                                    {"★"}
+                                  </div>
+                                </div>
+
+                                <div
+                                  data-plasmic-name={"i58"}
+                                  data-plasmic-override={overrides.i58}
+                                  className={classNames(
+                                    projectcss.all,
+                                    sty.i58
+                                  )}
+                                >
+                                  <div
+                                    className={classNames(
+                                      projectcss.all,
+                                      projectcss.__wab_text,
+                                      sty.text__pgKpj
+                                    )}
+                                  >
+                                    {"★"}
+                                  </div>
+                                </div>
+
+                                <div
+                                  data-plasmic-name={"i59"}
+                                  data-plasmic-override={overrides.i59}
+                                  className={classNames(
+                                    projectcss.all,
+                                    sty.i59
+                                  )}
+                                >
+                                  <div
+                                    className={classNames(
+                                      projectcss.all,
+                                      projectcss.__wab_text,
+                                      sty.text__joy3N
+                                    )}
+                                  >
+                                    {"★"}
+                                  </div>
+                                </div>
+
+                                <div
+                                  data-plasmic-name={"i60"}
+                                  data-plasmic-override={overrides.i60}
+                                  className={classNames(
+                                    projectcss.all,
+                                    sty.i60
+                                  )}
+                                >
+                                  <div
+                                    className={classNames(
+                                      projectcss.all,
+                                      projectcss.__wab_text,
+                                      sty.text__qADnH
+                                    )}
+                                  >
+                                    {"★"}
+                                  </div>
+                                </div>
+
+                                <div
+                                  className={classNames(
+                                    projectcss.all,
+                                    projectcss.__wab_text,
+                                    sty.text__vpvSm
+                                  )}
+                                >
+                                  {"(447)"}
+                                </div>
+                              </div>
+
+                              <div
+                                className={classNames(
+                                  projectcss.all,
+                                  projectcss.__wab_text,
+                                  sty.text__lAxz0
+                                )}
+                              >
+                                {"$20"}
+                              </div>
+
+                              <div
+                                data-plasmic-name={"div173"}
+                                data-plasmic-override={overrides.div173}
+                                className={classNames(
+                                  projectcss.all,
+                                  sty.div173
+                                )}
+                              >
+                                <div
+                                  className={classNames(
+                                    projectcss.all,
+                                    projectcss.__wab_text,
+                                    sty.text__oJEot
+                                  )}
+                                >
+                                  {"Age-Defying"}
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div
+                            data-plasmic-name={"form12"}
+                            data-plasmic-override={overrides.form12}
+                            className={classNames(projectcss.all, sty.form12)}
+                          >
+                            <div
+                              data-plasmic-name={"div174"}
+                              data-plasmic-override={overrides.div174}
+                              className={classNames(projectcss.all, sty.div174)}
+                            >
+                              <p.Stack
+                                as={"div"}
+                                data-plasmic-name={"div175"}
+                                data-plasmic-override={overrides.div175}
+                                hasGap={true}
+                                className={classNames(
+                                  projectcss.all,
+                                  sty.div175
+                                )}
+                              >
+                                <div
+                                  className={classNames(
+                                    projectcss.all,
+                                    projectcss.__wab_text,
+                                    sty.text__zuumb
+                                  )}
+                                >
+                                  {"Choose Flavor"}
+                                </div>
+
+                                <p.Stack
+                                  as={"div"}
+                                  data-plasmic-name={"div176"}
+                                  data-plasmic-override={overrides.div176}
+                                  hasGap={true}
+                                  className={classNames(
+                                    projectcss.all,
+                                    sty.div176
+                                  )}
+                                >
+                                  <p.PlasmicLink
+                                    data-plasmic-name={"div177"}
+                                    data-plasmic-override={overrides.div177}
+                                    className={classNames(
+                                      projectcss.all,
+                                      projectcss.a,
+                                      sty.div177
+                                    )}
+                                    component={Link}
+                                    href={
+                                      "https://shop.lifehacksplus.com/discount/QUIT15?redirect=/collections/all/products/pure?variant=39394817036" as const
+                                    }
+                                    platform={"nextjs"}
+                                  >
+                                    <div
+                                      data-plasmic-name={"label23"}
+                                      data-plasmic-override={overrides.label23}
+                                      className={classNames(
+                                        projectcss.all,
+                                        sty.label23
+                                      )}
+                                    />
+
+                                    <div
+                                      data-plasmic-name={"strawberry12"}
+                                      data-plasmic-override={
+                                        overrides.strawberry12
+                                      }
+                                      className={classNames(
+                                        projectcss.all,
+                                        sty.strawberry12
+                                      )}
+                                    >
+                                      <div
+                                        className={classNames(
+                                          projectcss.all,
+                                          projectcss.__wab_text,
+                                          sty.text__fj52R
+                                        )}
+                                      >
+                                        {"Strawberry"}
+                                      </div>
+                                    </div>
+                                  </p.PlasmicLink>
+
+                                  <p.PlasmicLink
+                                    data-plasmic-name={"div178"}
+                                    data-plasmic-override={overrides.div178}
+                                    className={classNames(
+                                      projectcss.all,
+                                      projectcss.a,
+                                      sty.div178
+                                    )}
+                                    component={Link}
+                                    href={
+                                      "https://shop.lifehacksplus.com/discount/QUIT15?redirect=/collections/all/products/pure?variant=39394817036" as const
+                                    }
+                                    platform={"nextjs"}
+                                  >
+                                    <div
+                                      data-plasmic-name={"label24"}
+                                      data-plasmic-override={overrides.label24}
+                                      className={classNames(
+                                        projectcss.all,
+                                        sty.label24
+                                      )}
+                                    />
+
+                                    <div
+                                      data-plasmic-name={"vanilla12"}
+                                      data-plasmic-override={
+                                        overrides.vanilla12
+                                      }
+                                      className={classNames(
+                                        projectcss.all,
+                                        sty.vanilla12
+                                      )}
+                                    >
+                                      <div
+                                        className={classNames(
+                                          projectcss.all,
+                                          projectcss.__wab_text,
+                                          sty.text__tMpBe
+                                        )}
+                                      >
+                                        {"Vanilla"}
+                                      </div>
+                                    </div>
+                                  </p.PlasmicLink>
+                                </p.Stack>
+                              </p.Stack>
+                            </div>
+
+                            <div
+                              data-plasmic-name={"div179"}
+                              data-plasmic-override={overrides.div179}
+                              className={classNames(projectcss.all, sty.div179)}
+                            >
+                              <p.PlasmicLink
+                                data-plasmic-name={
+                                  "buttonAddToCart106242143483"
+                                }
+                                data-plasmic-override={
+                                  overrides.buttonAddToCart106242143483
+                                }
+                                className={classNames(
+                                  projectcss.all,
+                                  projectcss.a,
+                                  sty.buttonAddToCart106242143483
+                                )}
+                                component={Link}
+                                href={
+                                  "https://shop.lifehacksplus.com/discount/QUIT15?redirect=/collections/all/products/pure?variant=39394817036" as const
+                                }
+                                platform={"nextjs"}
+                              >
+                                <div
+                                  className={classNames(
+                                    projectcss.all,
+                                    projectcss.__wab_text,
+                                    sty.text__eZPkA
+                                  )}
+                                >
+                                  {"SHOP NOW"}
+                                </div>
+                              </p.PlasmicLink>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div
+                          data-plasmic-name={"div180"}
+                          data-plasmic-override={overrides.div180}
+                          className={classNames(projectcss.all, sty.div180)}
+                        >
+                          <div
+                            data-plasmic-name={"a17"}
+                            data-plasmic-override={overrides.a17}
+                            className={classNames(projectcss.all, sty.a17)}
+                          >
+                            <p.PlasmicLink
+                              data-plasmic-name={
+                                "productMeltE5Ee4B8CB3944Dfa969D133320737857250X2502Xjpg3"
+                              }
+                              data-plasmic-override={
+                                overrides.productMeltE5Ee4B8CB3944Dfa969D133320737857250X2502Xjpg3
+                              }
+                              className={classNames(
+                                projectcss.all,
+                                projectcss.a,
+                                sty.productMeltE5Ee4B8Cb3944Dfa969D133320737857250X2502Xjpg3
+                              )}
+                              component={Link}
+                              href={
+                                "https://shop.lifehacksplus.com/discount/QUIT15?redirect=/collections/all/products/melt?variant=39394868748" as const
+                              }
+                              platform={"nextjs"}
+                            />
+
+                            <div
+                              data-plasmic-name={"div181"}
+                              data-plasmic-override={overrides.div181}
+                              className={classNames(projectcss.all, sty.div181)}
+                            >
+                              <div
+                                className={classNames(
+                                  projectcss.all,
+                                  projectcss.__wab_text,
+                                  sty.text___17X9F
+                                )}
+                              >
+                                {"Melt"}
+                              </div>
+
+                              <div
+                                data-plasmic-name={"_43Rating447Votes13"}
+                                data-plasmic-override={
+                                  overrides._43Rating447Votes13
+                                }
+                                className={classNames(
+                                  projectcss.all,
+                                  sty._43Rating447Votes13
+                                )}
+                              >
+                                <div
+                                  data-plasmic-name={"i61"}
+                                  data-plasmic-override={overrides.i61}
+                                  className={classNames(
+                                    projectcss.all,
+                                    sty.i61
+                                  )}
+                                >
+                                  <div
+                                    className={classNames(
+                                      projectcss.all,
+                                      projectcss.__wab_text,
+                                      sty.text___2VmMb
+                                    )}
+                                  >
+                                    {"★"}
+                                  </div>
+                                </div>
+
+                                <div
+                                  data-plasmic-name={"i62"}
+                                  data-plasmic-override={overrides.i62}
+                                  className={classNames(
+                                    projectcss.all,
+                                    sty.i62
+                                  )}
+                                >
+                                  <div
+                                    className={classNames(
+                                      projectcss.all,
+                                      projectcss.__wab_text,
+                                      sty.text__j6Wn3
+                                    )}
+                                  >
+                                    {"★"}
+                                  </div>
+                                </div>
+
+                                <div
+                                  data-plasmic-name={"i63"}
+                                  data-plasmic-override={overrides.i63}
+                                  className={classNames(
+                                    projectcss.all,
+                                    sty.i63
+                                  )}
+                                >
+                                  <div
+                                    className={classNames(
+                                      projectcss.all,
+                                      projectcss.__wab_text,
+                                      sty.text__ns3OJ
+                                    )}
+                                  >
+                                    {"★"}
+                                  </div>
+                                </div>
+
+                                <div
+                                  data-plasmic-name={"i64"}
+                                  data-plasmic-override={overrides.i64}
+                                  className={classNames(
+                                    projectcss.all,
+                                    sty.i64
+                                  )}
+                                >
+                                  <div
+                                    className={classNames(
+                                      projectcss.all,
+                                      projectcss.__wab_text,
+                                      sty.text__abSi
+                                    )}
+                                  >
+                                    {"★"}
+                                  </div>
+                                </div>
+
+                                <div
+                                  data-plasmic-name={"i65"}
+                                  data-plasmic-override={overrides.i65}
+                                  className={classNames(
+                                    projectcss.all,
+                                    sty.i65
+                                  )}
+                                >
+                                  <div
+                                    className={classNames(
+                                      projectcss.all,
+                                      projectcss.__wab_text,
+                                      sty.text__azHem
+                                    )}
+                                  >
+                                    {"★"}
+                                  </div>
+                                </div>
+
+                                <div
+                                  className={classNames(
+                                    projectcss.all,
+                                    projectcss.__wab_text,
+                                    sty.text__xRykP
+                                  )}
+                                >
+                                  {"(447)"}
+                                </div>
+                              </div>
+
+                              <div
+                                className={classNames(
+                                  projectcss.all,
+                                  projectcss.__wab_text,
+                                  sty.text__rulPu
+                                )}
+                              >
+                                {"$20"}
+                              </div>
+
+                              <div
+                                data-plasmic-name={"div182"}
+                                data-plasmic-override={overrides.div182}
+                                className={classNames(
+                                  projectcss.all,
+                                  sty.div182
+                                )}
+                              >
+                                <div
+                                  className={classNames(
+                                    projectcss.all,
+                                    projectcss.__wab_text,
+                                    sty.text__w9IrV
+                                  )}
+                                >
+                                  {"Metabolism-Boosting"}
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div
+                            data-plasmic-name={"form13"}
+                            data-plasmic-override={overrides.form13}
+                            className={classNames(projectcss.all, sty.form13)}
+                          >
+                            <div
+                              data-plasmic-name={"div183"}
+                              data-plasmic-override={overrides.div183}
+                              className={classNames(projectcss.all, sty.div183)}
+                            >
+                              <p.Stack
+                                as={"div"}
+                                data-plasmic-name={"div184"}
+                                data-plasmic-override={overrides.div184}
+                                hasGap={true}
+                                className={classNames(
+                                  projectcss.all,
+                                  sty.div184
+                                )}
+                              >
+                                <div
+                                  className={classNames(
+                                    projectcss.all,
+                                    projectcss.__wab_text,
+                                    sty.text__zBvo
+                                  )}
+                                >
+                                  {"Choose Flavor"}
+                                </div>
+
+                                <p.Stack
+                                  as={"div"}
+                                  data-plasmic-name={"div185"}
+                                  data-plasmic-override={overrides.div185}
+                                  hasGap={true}
+                                  className={classNames(
+                                    projectcss.all,
+                                    sty.div185
+                                  )}
+                                >
+                                  <p.PlasmicLink
+                                    data-plasmic-name={"div186"}
+                                    data-plasmic-override={overrides.div186}
+                                    className={classNames(
+                                      projectcss.all,
+                                      projectcss.a,
+                                      sty.div186
+                                    )}
+                                    component={Link}
+                                    href={
+                                      "https://shop.lifehacksplus.com/discount/QUIT15?redirect=/collections/all/products/melt?variant=39394868748" as const
+                                    }
+                                    platform={"nextjs"}
+                                  >
+                                    <div
+                                      data-plasmic-name={"label25"}
+                                      data-plasmic-override={overrides.label25}
+                                      className={classNames(
+                                        projectcss.all,
+                                        sty.label25
+                                      )}
+                                    />
+
+                                    <div
+                                      data-plasmic-name={"strawberry13"}
+                                      data-plasmic-override={
+                                        overrides.strawberry13
+                                      }
+                                      className={classNames(
+                                        projectcss.all,
+                                        sty.strawberry13
+                                      )}
+                                    >
+                                      <div
+                                        className={classNames(
+                                          projectcss.all,
+                                          projectcss.__wab_text,
+                                          sty.text__bKZeN
+                                        )}
+                                      >
+                                        {"Strawberry"}
+                                      </div>
+                                    </div>
+                                  </p.PlasmicLink>
+
+                                  <p.PlasmicLink
+                                    data-plasmic-name={"div187"}
+                                    data-plasmic-override={overrides.div187}
+                                    className={classNames(
+                                      projectcss.all,
+                                      projectcss.a,
+                                      sty.div187
+                                    )}
+                                    component={Link}
+                                    href={
+                                      "https://shop.lifehacksplus.com/discount/QUIT15?redirect=/collections/all/products/melt?variant=39394868748" as const
+                                    }
+                                    platform={"nextjs"}
+                                  >
+                                    <div
+                                      data-plasmic-name={"label26"}
+                                      data-plasmic-override={overrides.label26}
+                                      className={classNames(
+                                        projectcss.all,
+                                        sty.label26
+                                      )}
+                                    />
+
+                                    <div
+                                      data-plasmic-name={"vanilla13"}
+                                      data-plasmic-override={
+                                        overrides.vanilla13
+                                      }
+                                      className={classNames(
+                                        projectcss.all,
+                                        sty.vanilla13
+                                      )}
+                                    >
+                                      <div
+                                        className={classNames(
+                                          projectcss.all,
+                                          projectcss.__wab_text,
+                                          sty.text__u8NMc
+                                        )}
+                                      >
+                                        {"Vanilla"}
+                                      </div>
+                                    </div>
+                                  </p.PlasmicLink>
+                                </p.Stack>
+                              </p.Stack>
+                            </div>
+
+                            <div
+                              data-plasmic-name={"div188"}
+                              data-plasmic-override={overrides.div188}
+                              className={classNames(projectcss.all, sty.div188)}
+                            >
+                              <p.PlasmicLink
+                                data-plasmic-name={
+                                  "buttonAddToCart106242249723"
+                                }
+                                data-plasmic-override={
+                                  overrides.buttonAddToCart106242249723
+                                }
+                                className={classNames(
+                                  projectcss.all,
+                                  projectcss.a,
+                                  sty.buttonAddToCart106242249723
+                                )}
+                                component={Link}
+                                href={
+                                  "https://shop.lifehacksplus.com/discount/QUIT15?redirect=/collections/all/products/melt?variant=39394868748" as const
+                                }
+                                platform={"nextjs"}
+                              >
+                                <div
+                                  className={classNames(
+                                    projectcss.all,
+                                    projectcss.__wab_text,
+                                    sty.text__gpd2U
+                                  )}
+                                >
+                                  {"SHOP NOW"}
+                                </div>
+                              </p.PlasmicLink>
                             </div>
                           </div>
                         </div>
@@ -9096,7 +9195,7 @@ function PlasmicDisposableCollection__RenderFunc(props: {
                             data-plasmic-override={overrides.a19}
                             className={classNames(projectcss.all, sty.a19)}
                           >
-                            <div
+                            <p.PlasmicLink
                               data-plasmic-name={
                                 "packaging6Upright09FinalMin250X2502Xjpg3"
                               }
@@ -9105,8 +9204,14 @@ function PlasmicDisposableCollection__RenderFunc(props: {
                               }
                               className={classNames(
                                 projectcss.all,
+                                projectcss.a,
                                 sty.packaging6Upright09FinalMin250X2502Xjpg3
                               )}
+                              component={Link}
+                              href={
+                                "https://shop.lifehacksplus.com/discount/QUIT15?redirect=/collections/all/products/variety-pack" as const
+                              }
+                              platform={"nextjs"}
                             />
 
                             <div
@@ -9261,10 +9366,19 @@ function PlasmicDisposableCollection__RenderFunc(props: {
                               </div>
                             </div>
 
-                            <div
+                            <p.PlasmicLink
                               data-plasmic-name={"div203"}
                               data-plasmic-override={overrides.div203}
-                              className={classNames(projectcss.all, sty.div203)}
+                              className={classNames(
+                                projectcss.all,
+                                projectcss.a,
+                                sty.div203
+                              )}
+                              component={Link}
+                              href={
+                                "https://shop.lifehacksplus.com/discount/QUIT15?redirect=/collections/all/products/variety-pack" as const
+                              }
+                              platform={"nextjs"}
                             >
                               <div
                                 data-plasmic-name={"span10"}
@@ -9293,7 +9407,7 @@ function PlasmicDisposableCollection__RenderFunc(props: {
                                   {"BEST VALUE!"}
                                 </div>
                               </div>
-                            </div>
+                            </p.PlasmicLink>
                           </div>
 
                           <div
@@ -9324,13 +9438,19 @@ function PlasmicDisposableCollection__RenderFunc(props: {
                                   {"Contains Both:"}
                                 </div>
 
-                                <div
+                                <p.PlasmicLink
                                   data-plasmic-name={"div206"}
                                   data-plasmic-override={overrides.div206}
                                   className={classNames(
                                     projectcss.all,
+                                    projectcss.a,
                                     sty.div206
                                   )}
+                                  component={Link}
+                                  href={
+                                    "https://shop.lifehacksplus.com/discount/QUIT15?redirect=/collections/all/products/variety-pack" as const
+                                  }
+                                  platform={"nextjs"}
                                 >
                                   <div
                                     data-plasmic-name={"label29"}
@@ -9361,15 +9481,21 @@ function PlasmicDisposableCollection__RenderFunc(props: {
                                       {"Strawberry"}
                                     </div>
                                   </div>
-                                </div>
+                                </p.PlasmicLink>
 
-                                <div
+                                <p.PlasmicLink
                                   data-plasmic-name={"div207"}
                                   data-plasmic-override={overrides.div207}
                                   className={classNames(
                                     projectcss.all,
+                                    projectcss.a,
                                     sty.div207
                                   )}
+                                  component={Link}
+                                  href={
+                                    "https://shop.lifehacksplus.com/discount/QUIT15?redirect=/collections/all/products/variety-pack" as const
+                                  }
+                                  platform={"nextjs"}
                                 >
                                   <div
                                     data-plasmic-name={"label30"}
@@ -9398,7 +9524,7 @@ function PlasmicDisposableCollection__RenderFunc(props: {
                                       {"Vanilla"}
                                     </div>
                                   </div>
-                                </div>
+                                </p.PlasmicLink>
                               </div>
                             </div>
 
@@ -9407,7 +9533,7 @@ function PlasmicDisposableCollection__RenderFunc(props: {
                               data-plasmic-override={overrides.div208}
                               className={classNames(projectcss.all, sty.div208)}
                             >
-                              <div
+                              <p.PlasmicLink
                                 data-plasmic-name={
                                   "buttonAddToCart43324429107893"
                                 }
@@ -9416,8 +9542,14 @@ function PlasmicDisposableCollection__RenderFunc(props: {
                                 }
                                 className={classNames(
                                   projectcss.all,
+                                  projectcss.a,
                                   sty.buttonAddToCart43324429107893
                                 )}
+                                component={Link}
+                                href={
+                                  "https://shop.lifehacksplus.com/discount/QUIT15?redirect=/collections/all/products/variety-pack" as const
+                                }
+                                platform={"nextjs"}
                               >
                                 <div
                                   className={classNames(
@@ -9428,7 +9560,7 @@ function PlasmicDisposableCollection__RenderFunc(props: {
                                 >
                                   {"SHOP NOW"}
                                 </div>
-                              </div>
+                              </p.PlasmicLink>
                             </div>
                           </div>
                         </div>
@@ -9444,13 +9576,19 @@ function PlasmicDisposableCollection__RenderFunc(props: {
                           data-plasmic-override={overrides.a20}
                           className={classNames(projectcss.all, sty.a20)}
                         >
-                          <div
+                          <p.PlasmicLink
                             data-plasmic-name={"productSecBan1Jpg3"}
                             data-plasmic-override={overrides.productSecBan1Jpg3}
                             className={classNames(
                               projectcss.all,
+                              projectcss.a,
                               sty.productSecBan1Jpg3
                             )}
+                            component={Link}
+                            href={
+                              "https://shop.lifehacksplus.com/discount/QUIT15?redirect=/pages/subscription" as const
+                            }
+                            platform={"nextjs"}
                           />
 
                           <div
@@ -9784,13 +9922,19 @@ function PlasmicDisposableCollection__RenderFunc(props: {
                       data-plasmic-override={overrides.div216}
                       className={classNames(projectcss.all, sty.div216)}
                     >
-                      <div
+                      <p.PlasmicLink
                         data-plasmic-name={"footerLogopng3"}
                         data-plasmic-override={overrides.footerLogopng3}
                         className={classNames(
                           projectcss.all,
+                          projectcss.a,
                           sty.footerLogopng3
                         )}
+                        component={Link}
+                        href={
+                          "https://shop.lifehacksplus.com/discount/QUIT15" as const
+                        }
+                        platform={"nextjs"}
                       />
 
                       <div
@@ -10413,10 +10557,19 @@ function PlasmicDisposableCollection__RenderFunc(props: {
                     data-plasmic-override={overrides.div229}
                     className={classNames(projectcss.all, sty.div229)}
                   >
-                    <div
+                    <p.PlasmicLink
                       data-plasmic-name={"svg16"}
                       data-plasmic-override={overrides.svg16}
-                      className={classNames(projectcss.all, sty.svg16)}
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.a,
+                        sty.svg16
+                      )}
+                      component={Link}
+                      href={
+                        "https://shop.lifehacksplus.com/discount/QUIT15" as const
+                      }
+                      platform={"nextjs"}
                     >
                       {(
                         hasVariant(globalVariants, "screen", "smallestMobile")
@@ -10431,22 +10584,35 @@ function PlasmicDisposableCollection__RenderFunc(props: {
                           role={"img"}
                         />
                       ) : null}
-                    </div>
+                    </p.PlasmicLink>
                   </div>
 
-                  <div
+                  <p.PlasmicLink
                     data-plasmic-name={"sparqLogo125Xpng3"}
                     data-plasmic-override={overrides.sparqLogo125Xpng3}
                     className={classNames(
                       projectcss.all,
+                      projectcss.a,
                       sty.sparqLogo125Xpng3
                     )}
+                    component={Link}
+                    href={
+                      "https://shop.lifehacksplus.com/discount/QUIT15" as const
+                    }
+                    platform={"nextjs"}
                   />
 
-                  <div
+                  <p.PlasmicLink
                     data-plasmic-name={"div230"}
                     data-plasmic-override={overrides.div230}
-                    className={classNames(projectcss.all, sty.div230)}
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.a,
+                      sty.div230
+                    )}
+                    component={Link}
+                    href={"https://www.sparqlife.com/cart" as const}
+                    platform={"nextjs"}
                   >
                     <div
                       data-plasmic-name={"svg17"}
@@ -10464,7 +10630,7 @@ function PlasmicDisposableCollection__RenderFunc(props: {
                         />
                       ) : null}
                     </div>
-                  </div>
+                  </p.PlasmicLink>
                 </div>
               </div>
             </div>
@@ -10952,6 +11118,31 @@ const PlasmicDescendants = {
     "recyclable3",
     "divCollection3",
     "div162",
+    "div189",
+    "a18",
+    "productVariety1C2E7Bd9Ac9C4989Bfad811526Dad7E0250X2502Xjpg3",
+    "div190",
+    "_43Rating447Votes14",
+    "i66",
+    "i67",
+    "i68",
+    "i69",
+    "i70",
+    "div191",
+    "span9",
+    "bestSeller3",
+    "form14",
+    "div192",
+    "div193",
+    "div194",
+    "div195",
+    "label27",
+    "strawberry14",
+    "div196",
+    "label28",
+    "vanilla14",
+    "div197",
+    "buttonAddToCart43324944548533",
     "div163",
     "a15",
     "productFuel250X2502Xjpg3",
@@ -11020,31 +11211,6 @@ const PlasmicDescendants = {
     "vanilla13",
     "div188",
     "buttonAddToCart106242249723",
-    "div189",
-    "a18",
-    "productVariety1C2E7Bd9Ac9C4989Bfad811526Dad7E0250X2502Xjpg3",
-    "div190",
-    "_43Rating447Votes14",
-    "i66",
-    "i67",
-    "i68",
-    "i69",
-    "i70",
-    "div191",
-    "span9",
-    "bestSeller3",
-    "form14",
-    "div192",
-    "div193",
-    "div194",
-    "div195",
-    "label27",
-    "strawberry14",
-    "div196",
-    "label28",
-    "vanilla14",
-    "div197",
-    "buttonAddToCart43324944548533",
     "div198",
     "div199",
     "div200",
@@ -15387,6 +15553,31 @@ const PlasmicDescendants = {
     "recyclable3",
     "divCollection3",
     "div162",
+    "div189",
+    "a18",
+    "productVariety1C2E7Bd9Ac9C4989Bfad811526Dad7E0250X2502Xjpg3",
+    "div190",
+    "_43Rating447Votes14",
+    "i66",
+    "i67",
+    "i68",
+    "i69",
+    "i70",
+    "div191",
+    "span9",
+    "bestSeller3",
+    "form14",
+    "div192",
+    "div193",
+    "div194",
+    "div195",
+    "label27",
+    "strawberry14",
+    "div196",
+    "label28",
+    "vanilla14",
+    "div197",
+    "buttonAddToCart43324944548533",
     "div163",
     "a15",
     "productFuel250X2502Xjpg3",
@@ -15455,31 +15646,6 @@ const PlasmicDescendants = {
     "vanilla13",
     "div188",
     "buttonAddToCart106242249723",
-    "div189",
-    "a18",
-    "productVariety1C2E7Bd9Ac9C4989Bfad811526Dad7E0250X2502Xjpg3",
-    "div190",
-    "_43Rating447Votes14",
-    "i66",
-    "i67",
-    "i68",
-    "i69",
-    "i70",
-    "div191",
-    "span9",
-    "bestSeller3",
-    "form14",
-    "div192",
-    "div193",
-    "div194",
-    "div195",
-    "label27",
-    "strawberry14",
-    "div196",
-    "label28",
-    "vanilla14",
-    "div197",
-    "buttonAddToCart43324944548533",
     "div198",
     "div199",
     "div200",
@@ -15604,6 +15770,31 @@ const PlasmicDescendants = {
     "recyclable3",
     "divCollection3",
     "div162",
+    "div189",
+    "a18",
+    "productVariety1C2E7Bd9Ac9C4989Bfad811526Dad7E0250X2502Xjpg3",
+    "div190",
+    "_43Rating447Votes14",
+    "i66",
+    "i67",
+    "i68",
+    "i69",
+    "i70",
+    "div191",
+    "span9",
+    "bestSeller3",
+    "form14",
+    "div192",
+    "div193",
+    "div194",
+    "div195",
+    "label27",
+    "strawberry14",
+    "div196",
+    "label28",
+    "vanilla14",
+    "div197",
+    "buttonAddToCart43324944548533",
     "div163",
     "a15",
     "productFuel250X2502Xjpg3",
@@ -15672,31 +15863,6 @@ const PlasmicDescendants = {
     "vanilla13",
     "div188",
     "buttonAddToCart106242249723",
-    "div189",
-    "a18",
-    "productVariety1C2E7Bd9Ac9C4989Bfad811526Dad7E0250X2502Xjpg3",
-    "div190",
-    "_43Rating447Votes14",
-    "i66",
-    "i67",
-    "i68",
-    "i69",
-    "i70",
-    "div191",
-    "span9",
-    "bestSeller3",
-    "form14",
-    "div192",
-    "div193",
-    "div194",
-    "div195",
-    "label27",
-    "strawberry14",
-    "div196",
-    "label28",
-    "vanilla14",
-    "div197",
-    "buttonAddToCart43324944548533",
     "div198",
     "div199",
     "div200",
@@ -15808,6 +15974,31 @@ const PlasmicDescendants = {
     "recyclable3",
     "divCollection3",
     "div162",
+    "div189",
+    "a18",
+    "productVariety1C2E7Bd9Ac9C4989Bfad811526Dad7E0250X2502Xjpg3",
+    "div190",
+    "_43Rating447Votes14",
+    "i66",
+    "i67",
+    "i68",
+    "i69",
+    "i70",
+    "div191",
+    "span9",
+    "bestSeller3",
+    "form14",
+    "div192",
+    "div193",
+    "div194",
+    "div195",
+    "label27",
+    "strawberry14",
+    "div196",
+    "label28",
+    "vanilla14",
+    "div197",
+    "buttonAddToCart43324944548533",
     "div163",
     "a15",
     "productFuel250X2502Xjpg3",
@@ -15876,31 +16067,6 @@ const PlasmicDescendants = {
     "vanilla13",
     "div188",
     "buttonAddToCart106242249723",
-    "div189",
-    "a18",
-    "productVariety1C2E7Bd9Ac9C4989Bfad811526Dad7E0250X2502Xjpg3",
-    "div190",
-    "_43Rating447Votes14",
-    "i66",
-    "i67",
-    "i68",
-    "i69",
-    "i70",
-    "div191",
-    "span9",
-    "bestSeller3",
-    "form14",
-    "div192",
-    "div193",
-    "div194",
-    "div195",
-    "label27",
-    "strawberry14",
-    "div196",
-    "label28",
-    "vanilla14",
-    "div197",
-    "buttonAddToCart43324944548533",
     "div198",
     "div199",
     "div200",
@@ -16011,6 +16177,31 @@ const PlasmicDescendants = {
     "recyclable3",
     "divCollection3",
     "div162",
+    "div189",
+    "a18",
+    "productVariety1C2E7Bd9Ac9C4989Bfad811526Dad7E0250X2502Xjpg3",
+    "div190",
+    "_43Rating447Votes14",
+    "i66",
+    "i67",
+    "i68",
+    "i69",
+    "i70",
+    "div191",
+    "span9",
+    "bestSeller3",
+    "form14",
+    "div192",
+    "div193",
+    "div194",
+    "div195",
+    "label27",
+    "strawberry14",
+    "div196",
+    "label28",
+    "vanilla14",
+    "div197",
+    "buttonAddToCart43324944548533",
     "div163",
     "a15",
     "productFuel250X2502Xjpg3",
@@ -16079,31 +16270,6 @@ const PlasmicDescendants = {
     "vanilla13",
     "div188",
     "buttonAddToCart106242249723",
-    "div189",
-    "a18",
-    "productVariety1C2E7Bd9Ac9C4989Bfad811526Dad7E0250X2502Xjpg3",
-    "div190",
-    "_43Rating447Votes14",
-    "i66",
-    "i67",
-    "i68",
-    "i69",
-    "i70",
-    "div191",
-    "span9",
-    "bestSeller3",
-    "form14",
-    "div192",
-    "div193",
-    "div194",
-    "div195",
-    "label27",
-    "strawberry14",
-    "div196",
-    "label28",
-    "vanilla14",
-    "div197",
-    "buttonAddToCart43324944548533",
     "div198",
     "div199",
     "div200",
@@ -16208,6 +16374,31 @@ const PlasmicDescendants = {
   divCollection3: [
     "divCollection3",
     "div162",
+    "div189",
+    "a18",
+    "productVariety1C2E7Bd9Ac9C4989Bfad811526Dad7E0250X2502Xjpg3",
+    "div190",
+    "_43Rating447Votes14",
+    "i66",
+    "i67",
+    "i68",
+    "i69",
+    "i70",
+    "div191",
+    "span9",
+    "bestSeller3",
+    "form14",
+    "div192",
+    "div193",
+    "div194",
+    "div195",
+    "label27",
+    "strawberry14",
+    "div196",
+    "label28",
+    "vanilla14",
+    "div197",
+    "buttonAddToCart43324944548533",
     "div163",
     "a15",
     "productFuel250X2502Xjpg3",
@@ -16276,31 +16467,6 @@ const PlasmicDescendants = {
     "vanilla13",
     "div188",
     "buttonAddToCart106242249723",
-    "div189",
-    "a18",
-    "productVariety1C2E7Bd9Ac9C4989Bfad811526Dad7E0250X2502Xjpg3",
-    "div190",
-    "_43Rating447Votes14",
-    "i66",
-    "i67",
-    "i68",
-    "i69",
-    "i70",
-    "div191",
-    "span9",
-    "bestSeller3",
-    "form14",
-    "div192",
-    "div193",
-    "div194",
-    "div195",
-    "label27",
-    "strawberry14",
-    "div196",
-    "label28",
-    "vanilla14",
-    "div197",
-    "buttonAddToCart43324944548533",
     "div198",
     "div199",
     "div200",
@@ -16335,6 +16501,31 @@ const PlasmicDescendants = {
   ],
   div162: [
     "div162",
+    "div189",
+    "a18",
+    "productVariety1C2E7Bd9Ac9C4989Bfad811526Dad7E0250X2502Xjpg3",
+    "div190",
+    "_43Rating447Votes14",
+    "i66",
+    "i67",
+    "i68",
+    "i69",
+    "i70",
+    "div191",
+    "span9",
+    "bestSeller3",
+    "form14",
+    "div192",
+    "div193",
+    "div194",
+    "div195",
+    "label27",
+    "strawberry14",
+    "div196",
+    "label28",
+    "vanilla14",
+    "div197",
+    "buttonAddToCart43324944548533",
     "div163",
     "a15",
     "productFuel250X2502Xjpg3",
@@ -16402,7 +16593,9 @@ const PlasmicDescendants = {
     "label26",
     "vanilla13",
     "div188",
-    "buttonAddToCart106242249723",
+    "buttonAddToCart106242249723"
+  ],
+  div189: [
     "div189",
     "a18",
     "productVariety1C2E7Bd9Ac9C4989Bfad811526Dad7E0250X2502Xjpg3",
@@ -16429,6 +16622,92 @@ const PlasmicDescendants = {
     "div197",
     "buttonAddToCart43324944548533"
   ],
+  a18: [
+    "a18",
+    "productVariety1C2E7Bd9Ac9C4989Bfad811526Dad7E0250X2502Xjpg3",
+    "div190",
+    "_43Rating447Votes14",
+    "i66",
+    "i67",
+    "i68",
+    "i69",
+    "i70",
+    "div191",
+    "span9",
+    "bestSeller3"
+  ],
+  productVariety1C2E7Bd9Ac9C4989Bfad811526Dad7E0250X2502Xjpg3: [
+    "productVariety1C2E7Bd9Ac9C4989Bfad811526Dad7E0250X2502Xjpg3"
+  ],
+  div190: ["div190", "_43Rating447Votes14", "i66", "i67", "i68", "i69", "i70"],
+  _43Rating447Votes14: [
+    "_43Rating447Votes14",
+    "i66",
+    "i67",
+    "i68",
+    "i69",
+    "i70"
+  ],
+  i66: ["i66"],
+  i67: ["i67"],
+  i68: ["i68"],
+  i69: ["i69"],
+  i70: ["i70"],
+  div191: ["div191", "span9", "bestSeller3"],
+  span9: ["span9", "bestSeller3"],
+  bestSeller3: ["bestSeller3"],
+  form14: [
+    "form14",
+    "div192",
+    "div193",
+    "div194",
+    "div195",
+    "label27",
+    "strawberry14",
+    "div196",
+    "label28",
+    "vanilla14",
+    "div197",
+    "buttonAddToCart43324944548533"
+  ],
+  div192: [
+    "div192",
+    "div193",
+    "div194",
+    "div195",
+    "label27",
+    "strawberry14",
+    "div196",
+    "label28",
+    "vanilla14"
+  ],
+  div193: [
+    "div193",
+    "div194",
+    "div195",
+    "label27",
+    "strawberry14",
+    "div196",
+    "label28",
+    "vanilla14"
+  ],
+  div194: [
+    "div194",
+    "div195",
+    "label27",
+    "strawberry14",
+    "div196",
+    "label28",
+    "vanilla14"
+  ],
+  div195: ["div195", "label27", "strawberry14"],
+  label27: ["label27"],
+  strawberry14: ["strawberry14"],
+  div196: ["div196", "label28", "vanilla14"],
+  label28: ["label28"],
+  vanilla14: ["vanilla14"],
+  div197: ["div197", "buttonAddToCart43324944548533"],
+  buttonAddToCart43324944548533: ["buttonAddToCart43324944548533"],
   div163: [
     "div163",
     "a15",
@@ -16763,119 +17042,6 @@ const PlasmicDescendants = {
   vanilla13: ["vanilla13"],
   div188: ["div188", "buttonAddToCart106242249723"],
   buttonAddToCart106242249723: ["buttonAddToCart106242249723"],
-  div189: [
-    "div189",
-    "a18",
-    "productVariety1C2E7Bd9Ac9C4989Bfad811526Dad7E0250X2502Xjpg3",
-    "div190",
-    "_43Rating447Votes14",
-    "i66",
-    "i67",
-    "i68",
-    "i69",
-    "i70",
-    "div191",
-    "span9",
-    "bestSeller3",
-    "form14",
-    "div192",
-    "div193",
-    "div194",
-    "div195",
-    "label27",
-    "strawberry14",
-    "div196",
-    "label28",
-    "vanilla14",
-    "div197",
-    "buttonAddToCart43324944548533"
-  ],
-  a18: [
-    "a18",
-    "productVariety1C2E7Bd9Ac9C4989Bfad811526Dad7E0250X2502Xjpg3",
-    "div190",
-    "_43Rating447Votes14",
-    "i66",
-    "i67",
-    "i68",
-    "i69",
-    "i70",
-    "div191",
-    "span9",
-    "bestSeller3"
-  ],
-  productVariety1C2E7Bd9Ac9C4989Bfad811526Dad7E0250X2502Xjpg3: [
-    "productVariety1C2E7Bd9Ac9C4989Bfad811526Dad7E0250X2502Xjpg3"
-  ],
-  div190: ["div190", "_43Rating447Votes14", "i66", "i67", "i68", "i69", "i70"],
-  _43Rating447Votes14: [
-    "_43Rating447Votes14",
-    "i66",
-    "i67",
-    "i68",
-    "i69",
-    "i70"
-  ],
-  i66: ["i66"],
-  i67: ["i67"],
-  i68: ["i68"],
-  i69: ["i69"],
-  i70: ["i70"],
-  div191: ["div191", "span9", "bestSeller3"],
-  span9: ["span9", "bestSeller3"],
-  bestSeller3: ["bestSeller3"],
-  form14: [
-    "form14",
-    "div192",
-    "div193",
-    "div194",
-    "div195",
-    "label27",
-    "strawberry14",
-    "div196",
-    "label28",
-    "vanilla14",
-    "div197",
-    "buttonAddToCart43324944548533"
-  ],
-  div192: [
-    "div192",
-    "div193",
-    "div194",
-    "div195",
-    "label27",
-    "strawberry14",
-    "div196",
-    "label28",
-    "vanilla14"
-  ],
-  div193: [
-    "div193",
-    "div194",
-    "div195",
-    "label27",
-    "strawberry14",
-    "div196",
-    "label28",
-    "vanilla14"
-  ],
-  div194: [
-    "div194",
-    "div195",
-    "label27",
-    "strawberry14",
-    "div196",
-    "label28",
-    "vanilla14"
-  ],
-  div195: ["div195", "label27", "strawberry14"],
-  label27: ["label27"],
-  strawberry14: ["strawberry14"],
-  div196: ["div196", "label28", "vanilla14"],
-  label28: ["label28"],
-  vanilla14: ["vanilla14"],
-  div197: ["div197", "buttonAddToCart43324944548533"],
-  buttonAddToCart43324944548533: ["buttonAddToCart43324944548533"],
   div198: [
     "div198",
     "div199",
@@ -17896,77 +18062,9 @@ type NodeDefaultElementType = {
   recyclable3: "div";
   divCollection3: "div";
   div162: "div";
-  div163: "div";
-  a15: "div";
-  productFuel250X2502Xjpg3: "div";
-  div164: "div";
-  _43Rating447Votes11: "div";
-  i51: "div";
-  i52: "div";
-  i53: "div";
-  i54: "div";
-  i55: "div";
-  form11: "div";
-  div165: "div";
-  div166: "div";
-  div167: "div";
-  div168: "div";
-  label21: "div";
-  strawberry11: "div";
-  div169: "div";
-  label22: "div";
-  vanilla11: "div";
-  div170: "div";
-  buttonAddToCart106242076283: "div";
-  div171: "div";
-  a16: "div";
-  productPureCca9Dd58D8Da49AcB531F6Abd24468Da250X2502Xjpg3: "div";
-  div172: "div";
-  _43Rating447Votes12: "div";
-  i56: "div";
-  i57: "div";
-  i58: "div";
-  i59: "div";
-  i60: "div";
-  div173: "div";
-  form12: "div";
-  div174: "div";
-  div175: "div";
-  div176: "div";
-  div177: "div";
-  label23: "div";
-  strawberry12: "div";
-  div178: "div";
-  label24: "div";
-  vanilla12: "div";
-  div179: "div";
-  buttonAddToCart106242143483: "div";
-  div180: "div";
-  a17: "div";
-  productMeltE5Ee4B8CB3944Dfa969D133320737857250X2502Xjpg3: "div";
-  div181: "div";
-  _43Rating447Votes13: "div";
-  i61: "div";
-  i62: "div";
-  i63: "div";
-  i64: "div";
-  i65: "div";
-  div182: "div";
-  form13: "div";
-  div183: "div";
-  div184: "div";
-  div185: "div";
-  div186: "div";
-  label25: "div";
-  strawberry13: "div";
-  div187: "div";
-  label26: "div";
-  vanilla13: "div";
-  div188: "div";
-  buttonAddToCart106242249723: "div";
   div189: "div";
   a18: "div";
-  productVariety1C2E7Bd9Ac9C4989Bfad811526Dad7E0250X2502Xjpg3: "div";
+  productVariety1C2E7Bd9Ac9C4989Bfad811526Dad7E0250X2502Xjpg3: "a";
   div190: "div";
   _43Rating447Votes14: "div";
   i66: "div";
@@ -17981,20 +18079,88 @@ type NodeDefaultElementType = {
   div192: "div";
   div193: "div";
   div194: "div";
-  div195: "div";
+  div195: "a";
   label27: "div";
   strawberry14: "div";
-  div196: "div";
+  div196: "a";
   label28: "div";
   vanilla14: "div";
   div197: "div";
-  buttonAddToCart43324944548533: "div";
+  buttonAddToCart43324944548533: "a";
+  div163: "div";
+  a15: "div";
+  productFuel250X2502Xjpg3: "a";
+  div164: "div";
+  _43Rating447Votes11: "div";
+  i51: "div";
+  i52: "div";
+  i53: "div";
+  i54: "div";
+  i55: "div";
+  form11: "div";
+  div165: "div";
+  div166: "div";
+  div167: "div";
+  div168: "a";
+  label21: "div";
+  strawberry11: "div";
+  div169: "a";
+  label22: "div";
+  vanilla11: "div";
+  div170: "div";
+  buttonAddToCart106242076283: "a";
+  div171: "div";
+  a16: "div";
+  productPureCca9Dd58D8Da49AcB531F6Abd24468Da250X2502Xjpg3: "a";
+  div172: "div";
+  _43Rating447Votes12: "div";
+  i56: "div";
+  i57: "div";
+  i58: "div";
+  i59: "div";
+  i60: "div";
+  div173: "div";
+  form12: "div";
+  div174: "div";
+  div175: "div";
+  div176: "div";
+  div177: "a";
+  label23: "div";
+  strawberry12: "div";
+  div178: "a";
+  label24: "div";
+  vanilla12: "div";
+  div179: "div";
+  buttonAddToCart106242143483: "a";
+  div180: "div";
+  a17: "div";
+  productMeltE5Ee4B8CB3944Dfa969D133320737857250X2502Xjpg3: "a";
+  div181: "div";
+  _43Rating447Votes13: "div";
+  i61: "div";
+  i62: "div";
+  i63: "div";
+  i64: "div";
+  i65: "div";
+  div182: "div";
+  form13: "div";
+  div183: "div";
+  div184: "div";
+  div185: "div";
+  div186: "a";
+  label25: "div";
+  strawberry13: "div";
+  div187: "a";
+  label26: "div";
+  vanilla13: "div";
+  div188: "div";
+  buttonAddToCart106242249723: "a";
   div198: "div";
   div199: "div";
   div200: "div";
   div201: "div";
   a19: "div";
-  packaging6Upright09FinalMin250X2502Xjpg3: "div";
+  packaging6Upright09FinalMin250X2502Xjpg3: "a";
   div202: "div";
   _43Rating447Votes15: "div";
   i71: "div";
@@ -18002,23 +18168,23 @@ type NodeDefaultElementType = {
   i73: "div";
   i74: "div";
   i75: "div";
-  div203: "div";
+  div203: "a";
   span10: "div";
   bestValue3: "div";
   form15: "div";
   div204: "div";
   div205: "div";
-  div206: "div";
+  div206: "a";
   label29: "div";
   strawberry15: "div";
-  div207: "div";
+  div207: "a";
   label30: "div";
   vanilla15: "div";
   div208: "div";
-  buttonAddToCart43324429107893: "div";
+  buttonAddToCart43324429107893: "a";
   div209: "div";
   a20: "div";
-  productSecBan1Jpg3: "div";
+  productSecBan1Jpg3: "a";
   lookingToSaveEvenMoreCheckOutOurMonthlySparqPlans3: "div";
   section3: "div";
   div210: "div";
@@ -18042,7 +18208,7 @@ type NodeDefaultElementType = {
   weUseAPercentageOfYourPurchaseToEmpowerInnovativeStartUpsToSolveHumanitysMostPressingEnvironmentalChallenges3: "div";
   divshopifySectionFooter3: "div";
   div216: "div";
-  footerLogopng3: "div";
+  footerLogopng3: "a";
   div217: "div";
   div218: "div";
   div219: "div";
@@ -18087,9 +18253,9 @@ type NodeDefaultElementType = {
   freeShippingOnOr: "div";
   header3: "div";
   div229: "div";
-  svg16: "div";
-  sparqLogo125Xpng3: "div";
-  div230: "div";
+  svg16: "a";
+  sparqLogo125Xpng3: "a";
+  div230: "a";
   svg17: "div";
 };
 
@@ -18735,6 +18901,36 @@ export const PlasmicDisposableCollection = Object.assign(
     recyclable3: makeNodeComponent("recyclable3"),
     divCollection3: makeNodeComponent("divCollection3"),
     div162: makeNodeComponent("div162"),
+    div189: makeNodeComponent("div189"),
+    a18: makeNodeComponent("a18"),
+    productVariety1C2E7Bd9Ac9C4989Bfad811526Dad7E0250X2502Xjpg3:
+      makeNodeComponent(
+        "productVariety1C2E7Bd9Ac9C4989Bfad811526Dad7E0250X2502Xjpg3"
+      ),
+    div190: makeNodeComponent("div190"),
+    _43Rating447Votes14: makeNodeComponent("_43Rating447Votes14"),
+    i66: makeNodeComponent("i66"),
+    i67: makeNodeComponent("i67"),
+    i68: makeNodeComponent("i68"),
+    i69: makeNodeComponent("i69"),
+    i70: makeNodeComponent("i70"),
+    div191: makeNodeComponent("div191"),
+    span9: makeNodeComponent("span9"),
+    bestSeller3: makeNodeComponent("bestSeller3"),
+    form14: makeNodeComponent("form14"),
+    div192: makeNodeComponent("div192"),
+    div193: makeNodeComponent("div193"),
+    div194: makeNodeComponent("div194"),
+    div195: makeNodeComponent("div195"),
+    label27: makeNodeComponent("label27"),
+    strawberry14: makeNodeComponent("strawberry14"),
+    div196: makeNodeComponent("div196"),
+    label28: makeNodeComponent("label28"),
+    vanilla14: makeNodeComponent("vanilla14"),
+    div197: makeNodeComponent("div197"),
+    buttonAddToCart43324944548533: makeNodeComponent(
+      "buttonAddToCart43324944548533"
+    ),
     div163: makeNodeComponent("div163"),
     a15: makeNodeComponent("a15"),
     productFuel250X2502Xjpg3: makeNodeComponent("productFuel250X2502Xjpg3"),
@@ -18812,36 +19008,6 @@ export const PlasmicDisposableCollection = Object.assign(
     div188: makeNodeComponent("div188"),
     buttonAddToCart106242249723: makeNodeComponent(
       "buttonAddToCart106242249723"
-    ),
-    div189: makeNodeComponent("div189"),
-    a18: makeNodeComponent("a18"),
-    productVariety1C2E7Bd9Ac9C4989Bfad811526Dad7E0250X2502Xjpg3:
-      makeNodeComponent(
-        "productVariety1C2E7Bd9Ac9C4989Bfad811526Dad7E0250X2502Xjpg3"
-      ),
-    div190: makeNodeComponent("div190"),
-    _43Rating447Votes14: makeNodeComponent("_43Rating447Votes14"),
-    i66: makeNodeComponent("i66"),
-    i67: makeNodeComponent("i67"),
-    i68: makeNodeComponent("i68"),
-    i69: makeNodeComponent("i69"),
-    i70: makeNodeComponent("i70"),
-    div191: makeNodeComponent("div191"),
-    span9: makeNodeComponent("span9"),
-    bestSeller3: makeNodeComponent("bestSeller3"),
-    form14: makeNodeComponent("form14"),
-    div192: makeNodeComponent("div192"),
-    div193: makeNodeComponent("div193"),
-    div194: makeNodeComponent("div194"),
-    div195: makeNodeComponent("div195"),
-    label27: makeNodeComponent("label27"),
-    strawberry14: makeNodeComponent("strawberry14"),
-    div196: makeNodeComponent("div196"),
-    label28: makeNodeComponent("label28"),
-    vanilla14: makeNodeComponent("vanilla14"),
-    div197: makeNodeComponent("div197"),
-    buttonAddToCart43324944548533: makeNodeComponent(
-      "buttonAddToCart43324944548533"
     ),
     div198: makeNodeComponent("div198"),
     div199: makeNodeComponent("div199"),
