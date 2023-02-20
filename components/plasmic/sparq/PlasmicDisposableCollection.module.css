@@ -282,6 +282,12 @@
   left: 21px;
   bottom: 2356px;
 }
+@media (min-width: 414px) {
+  .div9 {
+    bottom: 34px;
+    top: 2322px;
+  }
+}
 .a {
   background: linear-gradient(
       90deg,
@@ -1583,6 +1589,12 @@
   top: 2322px;
   left: 21px;
   bottom: 34px;
+}
+@media (min-width: 414px) {
+  .div35 {
+    top: 0px;
+    bottom: 2356px;
+  }
 }
 .a4 {
   background: linear-gradient(
@@ -3860,9 +3872,9 @@
   width: 387px;
   display: block;
   position: absolute;
-  top: 0px;
+  top: 798px;
   left: 15px;
-  bottom: 838px;
+  bottom: 40px;
 }
 .a9 {
   background: linear-gradient(
@@ -5166,9 +5178,9 @@
   width: 387px;
   display: block;
   position: absolute;
-  top: 798px;
+  top: 0px;
   left: 15px;
-  bottom: 40px;
+  bottom: 838px;
 }
 .a12 {
   background: linear-gradient(
@@ -7701,13 +7713,23 @@
     display: block;
   }
 }
-.wwwsparqlifecomByHtmltodesignFreeVersion20022023162223Gmt5 {
+._320Px {
   background: rgba(255, 255, 255, 1);
   width: 320px;
   height: 5630px;
   display: block;
   overflow: hidden;
   flex-shrink: 0;
+}
+@media (min-width: 414px) {
+  ._320Px {
+    display: none;
+  }
+}
+@media (min-width: 768px) {
+  ._320Px {
+    display: none;
+  }
 }
 .div155 {
   width: 320px;
@@ -7945,9 +7967,9 @@
   width: 300px;
   display: block;
   position: absolute;
-  top: 1966px;
+  top: 0px;
   left: 10px;
-  bottom: 33px;
+  bottom: 1999px;
 }
 .a18 {
   background: linear-gradient(
@@ -8423,9 +8445,9 @@
   width: 300px;
   display: block;
   position: absolute;
-  top: 0px;
+  top: 1966px;
   left: 10px;
-  bottom: 1999px;
+  bottom: 33px;
 }
 .a15 {
   background: linear-gradient(

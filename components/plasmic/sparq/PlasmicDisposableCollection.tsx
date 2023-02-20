@@ -525,7 +525,7 @@ export type PlasmicDisposableCollection__OverridesType = {
   signUp?: p.Flex<"a"> & Partial<LinkProps>;
   a8?: p.Flex<"a"> & Partial<LinkProps>;
   svg7?: p.Flex<"div">;
-  wwwsparqlifecomByHtmltodesignFreeVersion20022023162223Gmt5?: p.Flex<"div">;
+  _320Px?: p.Flex<"div">;
   div155?: p.Flex<"div">;
   divPageContainer3?: p.Flex<"div">;
   mainMainContent3?: p.Flex<"div">;
@@ -7475,21 +7475,18 @@ function PlasmicDisposableCollection__RenderFunc(props: {
             </div>
           ) : null}
           {(
-            hasVariant(globalVariants, "screen", "smallestMobile")
+            hasVariant(globalVariants, "screen", "desktopOnly")
+              ? true
+              : hasVariant(globalVariants, "screen", "largestMobile")
+              ? true
+              : hasVariant(globalVariants, "screen", "smallestMobile")
               ? true
               : false
           ) ? (
             <div
-              data-plasmic-name={
-                "wwwsparqlifecomByHtmltodesignFreeVersion20022023162223Gmt5"
-              }
-              data-plasmic-override={
-                overrides.wwwsparqlifecomByHtmltodesignFreeVersion20022023162223Gmt5
-              }
-              className={classNames(
-                projectcss.all,
-                sty.wwwsparqlifecomByHtmltodesignFreeVersion20022023162223Gmt5
-              )}
+              data-plasmic-name={"_320Px"}
+              data-plasmic-override={overrides._320Px}
+              className={classNames(projectcss.all, sty._320Px)}
             >
               <div
                 data-plasmic-name={"div155"}
@@ -11097,7 +11094,7 @@ const PlasmicDescendants = {
     "signUp",
     "a8",
     "svg7",
-    "wwwsparqlifecomByHtmltodesignFreeVersion20022023162223Gmt5",
+    "_320Px",
     "div155",
     "divPageContainer3",
     "mainMainContent3",
@@ -15531,8 +15528,8 @@ const PlasmicDescendants = {
   signUp: ["signUp"],
   a8: ["a8", "svg7"],
   svg7: ["svg7"],
-  wwwsparqlifecomByHtmltodesignFreeVersion20022023162223Gmt5: [
-    "wwwsparqlifecomByHtmltodesignFreeVersion20022023162223Gmt5",
+  _320Px: [
+    "_320Px",
     "div155",
     "divPageContainer3",
     "mainMainContent3",
@@ -18041,7 +18038,7 @@ type NodeDefaultElementType = {
   signUp: "a";
   a8: "a";
   svg7: "div";
-  wwwsparqlifecomByHtmltodesignFreeVersion20022023162223Gmt5: "div";
+  _320Px: "div";
   div155: "div";
   divPageContainer3: "div";
   mainMainContent3: "div";
@@ -18869,10 +18866,7 @@ export const PlasmicDisposableCollection = Object.assign(
     signUp: makeNodeComponent("signUp"),
     a8: makeNodeComponent("a8"),
     svg7: makeNodeComponent("svg7"),
-    wwwsparqlifecomByHtmltodesignFreeVersion20022023162223Gmt5:
-      makeNodeComponent(
-        "wwwsparqlifecomByHtmltodesignFreeVersion20022023162223Gmt5"
-      ),
+    _320Px: makeNodeComponent("_320Px"),
     div155: makeNodeComponent("div155"),
     divPageContainer3: makeNodeComponent("divPageContainer3"),
     mainMainContent3: makeNodeComponent("mainMainContent3"),
