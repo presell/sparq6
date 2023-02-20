@@ -7285,21 +7285,23 @@
   left: 0px;
 }
 .div144 {
-  width: 1440px;
+  width: 100%;
   height: 112px;
   display: block;
   position: absolute;
   top: 0px;
   left: 0px;
+  min-width: 0;
 }
 .div145 {
   background: rgba(147, 137, 106, 1);
-  width: 1440px;
+  width: 100%;
   height: 34px;
   display: block;
   position: absolute;
   top: 0px;
   left: 0px;
+  min-width: 0;
 }
 .div146 {
   width: 1200px;
