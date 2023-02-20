@@ -42,28 +42,27 @@ export const getStaticProps: GetStaticProps = async (context) => {
     // non-Plasmic catch-all
     return { props: {} };
   }
+  const pageMeta = plasmicData.entryCompMetas[0];
   // Cache the necessary data fetched for the page
   const queryCache = await extractPlasmicQueryData(
     <PlasmicRootProvider
       loader={PLASMIC}
       prefetchedData={plasmicData}
+      pageParams={pageMeta.params}
     >
-      <PlasmicComponent component="PlasmicPrefetcher" />
+      <PlasmicComponent component={pageMeta.displayName} />
     </PlasmicRootProvider>
   );
-  const pageMeta = plasmicData.entryCompMetas[0];
   // Use revalidate if you want incremental static regeneration
-  return { props: { plasmicData, queryCache, pageMeta }, revalidate: 60 };
+  return { props: { plasmicData, queryCache }, revalidate: 60 };
 }
 
 export const getStaticPaths: GetStaticPaths = async () => {
   const pageModules = await PLASMIC.fetchPages();
-  return {
-    paths: pageModules.map((mod) => ({
-      params: {
-        catchall: mod.path.substring(1).split("/"),
-      },
-    })),
-    fallback: "blocking",
-  };
+  const paths = pageModules.map((mod) => ({
+    params: {
+      catchall: mod.path === '/' ? [] : mod.path.substring(1).split("/"),
+    },
+  }));
+  return { paths, fallback: "blocking" };
 }
