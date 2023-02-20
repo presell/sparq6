@@ -66,3 +66,14 @@ export const getStaticPaths: GetStaticPaths = async () => {
   }));
   return { paths, fallback: "blocking" };
 }
+
+export const getStaticPaths: GetStaticPaths = async () => {
+  return {
+    paths: [
+      { params: { catchall: ["home"] } },
+      { params: { catchall: ["disposable"] } },
+      { params: { catchall: ["thank-you"] } },
+    ],
+    fallback: "blocking",
+  };
+}
