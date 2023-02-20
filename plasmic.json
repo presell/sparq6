@@ -281,13 +281,13 @@
         },
         {
           "id": "d-ZOG2yx5YT",
-          "name": "label 2",
-          "filePath": "../public/plasmic/sparq/images/label2.png"
+          "name": "label 5",
+          "filePath": "../public/plasmic/sparq/images/label5.png"
         },
         {
           "id": "Hfit6leiKUs",
-          "name": "label 3",
-          "filePath": "../public/plasmic/sparq/images/label3.png"
+          "name": "label 2",
+          "filePath": "../public/plasmic/sparq/images/label2.png"
         },
         {
           "id": "KpYpYpV6Dlt",
@@ -296,8 +296,13 @@
         },
         {
           "id": "DnR9TIZEfLZ",
-          "name": "label 5",
-          "filePath": "../public/plasmic/sparq/images/label5.png"
+          "name": "label 4",
+          "filePath": "../public/plasmic/sparq/images/label4.png"
+        },
+        {
+          "id": "z-Ac2MziU",
+          "name": "pills_icon_73726148-c05b-4727-9378-2519623fd4a0_480x480.png 2",
+          "filePath": "../public/plasmic/sparq/images/pillsIcon73726148C05B472793782519623Fd4A0480X480Png2.png"
         }
       ],
       "indirect": false,
