@@ -24,7 +24,7 @@
 }
 @media (min-width: 414px) {
   ._440Px {
-    display: none;
+    display: block;
   }
 }
 @media (min-width: 768px) {
@@ -3631,7 +3631,7 @@
 }
 @media (min-width: 768px) {
   ._1440Px {
-    display: none;
+    display: block;
   }
 }
 .div76 {
@@ -7728,7 +7728,7 @@
 }
 @media (min-width: 320px) {
   ._320Px {
-    display: none;
+    display: block;
   }
 }
 @media (min-width: 414px) {
@@ -11390,6 +11390,11 @@
 .leads > :global(.__wab_flex-container) > picture > img,
 .leads > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
   margin-top: 16px;
+}
+@media (min-width: 320px) {
+  .leads {
+    display: none;
+  }
 }
 @media (min-width: 768px) {
   .leads {
