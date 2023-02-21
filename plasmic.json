@@ -94,6 +94,19 @@
           "cssFilePath": "plasmic/sparq/PlasmicDisposableCollection.module.css",
           "scheme": "blackbox",
           "componentType": "page"
+        },
+        {
+          "id": "2qwjn15PEpaD",
+          "name": "DisposableCollection2",
+          "type": "managed",
+          "projectId": "gzk14oXgaAXzvGY4rg9Zpf",
+          "renderModuleFilePath": "plasmic/sparq/PlasmicDisposableCollection2.tsx",
+          "importSpec": {
+            "modulePath": "../pages/disposable-2.tsx"
+          },
+          "cssFilePath": "plasmic/sparq/PlasmicDisposableCollection2.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
         }
       ],
       "icons": [
