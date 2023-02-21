@@ -280,6 +280,16 @@
           "assetId": "gzk14oXgaAXzvGY4rg9Zpf",
           "type": "projectCss",
           "checksum": "3a52afabcb303c1a8ee0efedad2c42f0"
+        },
+        {
+          "type": "renderModule",
+          "assetId": "hSWddtmbb3zU",
+          "checksum": "30a27d463708badf2d103ab3510253cc"
+        },
+        {
+          "type": "cssRules",
+          "assetId": "hSWddtmbb3zU",
+          "checksum": "30a27d463708badf2d103ab3510253cc"
         }
       ],
       "codegenVersion": "0.0.1"
